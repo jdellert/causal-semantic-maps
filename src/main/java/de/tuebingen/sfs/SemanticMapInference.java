@@ -13,6 +13,9 @@ public class SemanticMapInference
 	
 	public static Options defineOptions() {
 		Options options = new Options();
+		
+    	Option allSamples = new Option("a", "allSamples", false, "Output maps resulting from each sample.");
+    	options.addOption(allSamples);
     	
     	Option bootstrap = new Option("b", "bootstrap", false, "Add bootstrapping on the language level.");
     	options.addOption(bootstrap);
@@ -20,7 +23,7 @@ public class SemanticMapInference
     	
     	Option directionality = new Option("d", "directionality", false, "Use causal inference to infer arrows.");
     	options.addOption(directionality);
-    	//TODO: add optional specification of the number of bootstrap samples
+    	//TODO: add optional specification of strategy for directionality inference
     	
     	Option randomOrder = new Option("r", "randomOrder", false, "Randomize link deletion order.");
     	options.addOption(randomOrder);
@@ -45,6 +48,13 @@ public class SemanticMapInference
                 .required(true)
                 .desc("Specify output file (= semantic map).").build();
         options.addOption(output);
+        
+        Option logfile = Option.builder("l").longOpt("logfile")
+                .argName("logFile")
+                .hasArg()
+                .required(false)
+                .desc("Specify logfile (textual output).").build();
+        options.addOption(logfile);
         
         return options;
 	}
