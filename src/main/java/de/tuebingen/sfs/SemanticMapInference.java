@@ -4,7 +4,7 @@ package de.tuebingen.sfs;
  * Hello world!
  *
  */
-public class App 
+public class SemanticMapInference 
 {
     public static void main( String[] args )
     {
