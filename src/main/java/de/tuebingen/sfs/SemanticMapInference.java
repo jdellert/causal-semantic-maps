@@ -32,6 +32,7 @@ import de.tuebingen.sfs.causal.heuristics.separation.PartialCorrelationDiscreteU
 import de.tuebingen.sfs.lextyp.data.IsolecticAreaProcessing;
 import de.tuebingen.sfs.lextyp.io.IsolecticAreaReader;
 import de.tuebingen.sfs.lextyp.struct.IsolecticArea;
+import de.tuebingen.sfs.util.io.ListReader;
 import de.tuebingen.sfs.util.struct.Triple;
 
 public class SemanticMapInference {
@@ -112,6 +113,7 @@ public class SemanticMapInference {
 
 			String inputFilePath = "";
 			String outputFilePath = null;
+			String coordinatesFilePath = null;
 
 			Set<String> concepts = new TreeSet<String>();
 			String conceptFilePath = null;
@@ -132,6 +134,11 @@ public class SemanticMapInference {
 			if (cmd.hasOption("vo")) {
 				outputFilePath = cmd.getOptionValue("visOutput");
 				System.out.println("Will write semantic map in DOT format to output files with prefix " + outputFilePath);
+			}
+			
+			if (cmd.hasOption("vc")) {
+				coordinatesFilePath = cmd.getOptionValue("coordinates");
+				System.out.println("DOT files will include coordinates specified in file " + coordinatesFilePath);
 			}
 
 			if (cmd.hasOption("b")) {
@@ -178,11 +185,18 @@ public class SemanticMapInference {
 			if (conceptFilePath == null) {
 				IsolecticAreaProcessing.filterConceptsByMinOccurrence(concepts, isolecticAreas, minConceptOccurrences);
 			} else {
-				// TODO: load concept file
+				concepts.addAll(ListReader.listFromFile(conceptFilePath));
 			}
 			
+			// load coordinates from the specified file (-vo argument)
 			Map<String, Point2D.Double> coordinates = new TreeMap<String, Point2D.Double>();
-			//TODO: load coordinates from file (if specified)
+			if (coordinatesFilePath != null) {
+				List<String[]> entries = ListReader.arrayFromTSV(coordinatesFilePath);
+				for (String[] entry : entries) {
+					if (entry.length < 3) continue;
+					coordinates.put(entry[0], new Point2D.Double(Double.parseDouble(entry[1]), Double.parseDouble(entry[2])));
+				}
+			}
 
 			// selected/filtered concepts are the variables for causal inference
 			String[] varNames = createVarNames(concepts);
@@ -239,7 +253,7 @@ public class SemanticMapInference {
 						sample, varNames, true, true);
 
 				// run PC algorithm to derive the semantic map
-				PcStarAlgorithm pcInstance = new PcStarAlgorithm(corrMeasure, arrowFinder, varNames, semanticMap,
+				PcStarAlgorithm pcInstance = new PcStarAlgorithm(corrMeasure, null, varNames, semanticMap,
 						concepts.size(), true, true, randomLinkProcessingOrder);
 				pcInstance.runSkeletonInference();
 				if (directionality) {
