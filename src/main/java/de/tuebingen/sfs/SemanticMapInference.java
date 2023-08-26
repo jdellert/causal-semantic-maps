@@ -85,7 +85,7 @@ public class SemanticMapInference {
 		options.addOption(input);
 
 		Option output = Option.builder("vo").longOpt("visOutput").argName("outputDotFile").hasArg().required(false)
-				.desc("Specify DOT filename for the visualized map.").build();
+				.desc("Specify path and filename prefix for the visualized map(s).").build();
 		options.addOption(output);
 
 		Option logfile = Option.builder("log").longOpt("logfile").argName("logFile").hasArg().required(false)
@@ -131,7 +131,7 @@ public class SemanticMapInference {
 
 			if (cmd.hasOption("vo")) {
 				outputFilePath = cmd.getOptionValue("visOutput");
-				System.out.println("Will write semantic map in DOT format to output file: " + outputFilePath);
+				System.out.println("Will write semantic map in DOT format to output files with prefix " + outputFilePath);
 			}
 
 			if (cmd.hasOption("b")) {
@@ -143,7 +143,7 @@ public class SemanticMapInference {
 			if (cmd.hasOption("m")) {
 				System.out.println("Will vary link processing order and output the map of minimal size.");
 				if (bootstrapping) {
-					System.out.println("WARNING: combining bootstrap and minimization is an atypical use case!");
+					System.out.println("WARNING: combining bootstrap (-b) and minimization (-m) is an atypical use case!");
 				}
 				minimizeSize = true;
 				randomLinkProcessingOrder = true;
@@ -152,7 +152,11 @@ public class SemanticMapInference {
 			
 			if (cmd.hasOption("r")) {
 				System.out.println("Will vary link processing order to explore the space of possible maps.");
+				if (minimizeSize) {
+					System.out.println("WARNING: randomization already happens due to minimization mode, the additional -r flag does not change anything!");
+				}
 				randomLinkProcessingOrder = true;
+				numSamples = 1000;
 			}
 			
 			if (cmd.hasOption("d")) {
@@ -251,7 +255,7 @@ public class SemanticMapInference {
 					
 					//generate DOT file for visualizing the output (if specified)
 					if (outputFilePath != null) {
-						PrintStream out = new PrintStream(new FileOutputStream(new File(outputFilePath)));
+						PrintStream out = new PrintStream(new FileOutputStream(new File(outputFilePath + "-map.dot")));
 						CausalGraphOutput.outputToDotFormat(semanticMap, out, coordinates, 50);
 						out.flush();
 						out.close();
@@ -262,7 +266,7 @@ public class SemanticMapInference {
 				
 				if (minimizeSize) {
 					int mapSize = semanticMap.listAllLinks().size();
-					System.out.println("Map size: ");
+					System.out.println("Map size: " + mapSize);
 					if (mapSize < minMapSize) {
 						System.out.println("Reached new smallest map size with " + mapSize + " links!");
 						minMapSize = mapSize;
@@ -277,7 +281,7 @@ public class SemanticMapInference {
 				System.out.println("==============================\n");
 				minimalMap.printInTextFormat();
 				if (outputFilePath != null) {
-					PrintStream out = new PrintStream(new FileOutputStream(new File(outputFilePath + "-minimal.dot")));
+					PrintStream out = new PrintStream(new FileOutputStream(new File(outputFilePath + "-minimal-map.dot")));
 					CausalGraphOutput.outputToDotFormat(minimalMap, out, coordinates, 50);
 					out.flush();
 					out.close();
@@ -291,7 +295,7 @@ public class SemanticMapInference {
 				sampleSummary.printInTextFormat();
 				if (outputFilePath != null) {
 					PrintStream out = new PrintStream(new FileOutputStream(new File(outputFilePath + "-consensus.dot")));
-					CausalGraphOutput.outputToDotFormat(sampleSummary, out, coordinates, 50);
+					CausalGraphOutput.outputToDotFormat(sampleSummary, out, coordinates, 0.25, 50);
 					out.flush();
 					out.close();
 				}
