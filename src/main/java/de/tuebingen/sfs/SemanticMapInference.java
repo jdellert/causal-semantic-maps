@@ -1,11 +1,17 @@
 package de.tuebingen.sfs;
 
+import java.awt.geom.Point2D;
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
+import java.util.TreeMap;
 import java.util.TreeSet;
 
 import org.apache.commons.cli.CommandLine;
@@ -16,9 +22,9 @@ import org.apache.commons.cli.Option;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
-import de.tuebingen.sfs.causal.algorithms.PcAlgorithm;
 import de.tuebingen.sfs.causal.algorithms.PcStarAlgorithm;
 import de.tuebingen.sfs.causal.data.CausalGraph;
+import de.tuebingen.sfs.causal.data.CausalGraphOutput;
 import de.tuebingen.sfs.causal.data.CausalGraphSummary;
 import de.tuebingen.sfs.causal.heuristics.arrows.CausalArrowFinder;
 import de.tuebingen.sfs.causal.heuristics.arrows.CausalArrowFinderPcDefault;
@@ -30,7 +36,7 @@ import de.tuebingen.sfs.util.struct.Triple;
 
 public class SemanticMapInference {
 
-	private static List<Set<Set<Triple<String, String, String>>>> resamplePartitionsConceptLevel(
+	private static List<Set<Set<Triple<String, String, String>>>> resamplePartitionsLanguageLevel(
 			List<Set<Set<Triple<String, String, String>>>> samplePartitions) {
 		int size = samplePartitions.size();
 		List<Set<Set<Triple<String, String, String>>>> resample = new ArrayList<>(size);
@@ -69,8 +75,7 @@ public class SemanticMapInference {
 		
 		Option minimalMapOutput = new Option("m", "minimalMap", false, "Output semantic map of minimal size among samples.");
 		options.addOption(minimalMapOutput);
-		//TODO: this should be mutually exclusive with the bootstrap!
-
+		
 		Option concepts = Option.builder("c").longOpt("concepts").argName("conceptFile").hasArg().required(false)
 				.desc("Specify concepts. (default: all)").build();
 		options.addOption(concepts);
@@ -79,17 +84,17 @@ public class SemanticMapInference {
 				.desc("Specify input file (= isolectic sets).").build();
 		options.addOption(input);
 
-		Option output = Option.builder("o").longOpt("output").argName("outputDotFile").hasArg().required(true)
-				.desc("Specify output file (= semantic map).").build();
+		Option output = Option.builder("vo").longOpt("visOutput").argName("outputDotFile").hasArg().required(false)
+				.desc("Specify DOT filename for the visualized map.").build();
 		options.addOption(output);
-		
-		//TODO: make optional, simple text output in case no dot output is specified
 
-		Option logfile = Option.builder("l").longOpt("logfile").argName("logFile").hasArg().required(false)
+		Option logfile = Option.builder("log").longOpt("logfile").argName("logFile").hasArg().required(false)
 				.desc("Specify logfile (textual output).").build();
 		options.addOption(logfile);
-
-		// TODO: option p to specify positions (in x y coordinates)
+		
+		Option coordinates = Option.builder("vc").longOpt("coordinates").argName("coordinateFile").hasArg().required(false)
+				.desc("Specify coordinates for visualization output.").build();
+		options.addOption(coordinates);
 
 		return options;
 	}
@@ -106,7 +111,7 @@ public class SemanticMapInference {
 			cmd = parser.parse(options, args);
 
 			String inputFilePath = "";
-			String outputFilePath = "";
+			String outputFilePath = null;
 
 			Set<String> concepts = new TreeSet<String>();
 			String conceptFilePath = null;
@@ -114,23 +119,40 @@ public class SemanticMapInference {
 			
 			boolean directionality = false;
 
-			boolean bootstrapping = false;
 			int numSamples = 1;
+			boolean bootstrapping = false;
+			boolean minimizeSize = false;
+			boolean randomLinkProcessingOrder = false;
 
 			if (cmd.hasOption("i")) {
 				inputFilePath = cmd.getOptionValue("input");
 				System.out.println("Reading isolectic sets from input file: " + inputFilePath);
 			}
 
-			if (cmd.hasOption("o")) {
-				outputFilePath = cmd.getOptionValue("output");
+			if (cmd.hasOption("vo")) {
+				outputFilePath = cmd.getOptionValue("visOutput");
 				System.out.println("Will write semantic map in DOT format to output file: " + outputFilePath);
 			}
 
 			if (cmd.hasOption("b")) {
-				System.out.println("Will use bootstrapping on the language level in order to derive confidence values.");
+				System.out.println("Will use bootstrapping on the language level to derive a consensus map.");
 				bootstrapping = true;
-				numSamples = 100;
+				numSamples = 1000;
+			}
+			
+			if (cmd.hasOption("m")) {
+				System.out.println("Will vary link processing order and output the map of minimal size.");
+				if (bootstrapping) {
+					System.out.println("WARNING: combining bootstrap and minimization is an atypical use case!");
+				}
+				minimizeSize = true;
+				randomLinkProcessingOrder = true;
+				numSamples = 1000;
+			}
+			
+			if (cmd.hasOption("r")) {
+				System.out.println("Will vary link processing order to explore the space of possible maps.");
+				randomLinkProcessingOrder = true;
 			}
 			
 			if (cmd.hasOption("d")) {
@@ -154,6 +176,9 @@ public class SemanticMapInference {
 			} else {
 				// TODO: load concept file
 			}
+			
+			Map<String, Point2D.Double> coordinates = new TreeMap<String, Point2D.Double>();
+			//TODO: load coordinates from file (if specified)
 
 			// selected/filtered concepts are the variables for causal inference
 			String[] varNames = createVarNames(concepts);
@@ -162,12 +187,14 @@ public class SemanticMapInference {
 					.isolecticAreasToSamplePartitions(isolecticAreas);
 			System.err.println("Extracted isolectic sets from " + samplePartitions.size() + " languages.");
 
-			CausalGraphSummary bootstrapSummary = new CausalGraphSummary(varNames);
+			CausalGraphSummary sampleSummary = new CausalGraphSummary(varNames);
+			
 			int minMapSize = Integer.MAX_VALUE;
+			CausalGraph minimalMap = null;
 			
 			double[][] thresholds = new double[concepts.size()][concepts.size()];
 			for (double[] thresholdRow : thresholds) {
-				Arrays.fill(thresholdRow, 1.00);
+				Arrays.fill(thresholdRow, 0.00);
 				// 5.00 to let only links with some chance of directionality in hypergeometric
 				// test survive
 			}
@@ -175,7 +202,7 @@ public class SemanticMapInference {
 			for (int k = 0; k < numSamples; k++) {
 				List<Set<Set<Triple<String, String, String>>>> sample = samplePartitions;
 				if (bootstrapping) {
-					sample = resamplePartitionsConceptLevel(samplePartitions);
+					sample = resamplePartitionsLanguageLevel(samplePartitions);
 				}
 
 				CausalGraph semanticMap = new CausalGraph(varNames, false);
@@ -209,21 +236,67 @@ public class SemanticMapInference {
 
 				// run PC algorithm to derive the semantic map
 				PcStarAlgorithm pcInstance = new PcStarAlgorithm(corrMeasure, arrowFinder, varNames, semanticMap,
-						concepts.size(), true, true, true);
+						concepts.size(), true, true, randomLinkProcessingOrder);
 				pcInstance.runSkeletonInference();
-				if (directionality) pcInstance.runDirectionalityInference();
+				if (directionality) {
+					pcInstance.runDirectionalityInference();
+				} else {
+					semanticMap.convertCirclesToLines();
+				}
 				
 				if (numSamples == 1) {
 					System.out.println("\nRESULT:");
 					System.out.println("=======\n");
 					semanticMap.printInTextFormat();
 					
-					//TODO: dot output to output file (if specified)
+					//generate DOT file for visualizing the output (if specified)
+					if (outputFilePath != null) {
+						PrintStream out = new PrintStream(new FileOutputStream(new File(outputFilePath)));
+						CausalGraphOutput.outputToDotFormat(semanticMap, out, coordinates, 50);
+						out.flush();
+						out.close();
+					}
 				} else {
-					
+					sampleSummary.addGraph(semanticMap);
+				}
+				
+				if (minimizeSize) {
+					int mapSize = semanticMap.listAllLinks().size();
+					System.out.println("Map size: ");
+					if (mapSize < minMapSize) {
+						System.out.println("Reached new smallest map size with " + mapSize + " links!");
+						minMapSize = mapSize;
+						minimalMap = semanticMap;
+					}
 				}
 			}
-			// TODO: print summary in case numSamples > 1
+
+			// print and output minimal map
+			if (minimizeSize) {
+				System.out.println("\nMINIMAL MAP (among " + numSamples + " runs)");
+				System.out.println("==============================\n");
+				minimalMap.printInTextFormat();
+				if (outputFilePath != null) {
+					PrintStream out = new PrintStream(new FileOutputStream(new File(outputFilePath + "-minimal.dot")));
+					CausalGraphOutput.outputToDotFormat(minimalMap, out, coordinates, 50);
+					out.flush();
+					out.close();
+				}
+			}
+			
+			// print and output summary in case numSamples > 1
+			if (numSamples > 1) {
+				System.out.println("\nSEMANTIC MAP CONSENSUS (based on " + numSamples + " runs)");
+				System.out.println("============================================\n");
+				sampleSummary.printInTextFormat();
+				if (outputFilePath != null) {
+					PrintStream out = new PrintStream(new FileOutputStream(new File(outputFilePath + "-consensus.dot")));
+					CausalGraphOutput.outputToDotFormat(sampleSummary, out, coordinates, 50);
+					out.flush();
+					out.close();
+				}
+			}		
+			
 		} catch (ParseException e) {
 			System.out.println(e.getMessage());
 			helper.printHelp(" ", options);
