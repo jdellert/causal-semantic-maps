@@ -93,4 +93,53 @@ public class IsolecticAreaProcessing {
 	        return samplePartitions;
 		}
 	}
+	
+	public static List<Set<Set<Triple<String, String, String>>>> isolecticAreasToCompleteSamplePartitions(Set<IsolecticArea> isolecticAreas, Set<String> relevantConcepts) {
+		return isolecticAreasToCompleteSamplePartitions(isolecticAreas, relevantConcepts, 0);
+	}
+	
+	public static List<Set<Set<Triple<String, String, String>>>> isolecticAreasToCompleteSamplePartitions(Set<IsolecticArea> isolecticAreas, Set<String> relevantConcepts, int maxNumGapsPerLang) {
+		Map<String,Set<Set<Triple<String, String, String>>>> samplePartitionsPerLang = new TreeMap<String,Set<Set<Triple<String, String, String>>>>();
+		Map<String,Set<String>> coveredConceptsPerLang = new TreeMap<String,Set<String>>();
+        for (IsolecticArea area : isolecticAreas)
+        {
+        	Set<Set<Triple<String, String, String>>> samplePartitionForLang = samplePartitionsPerLang.get(area.getLang());
+        	if (samplePartitionForLang == null) {
+        		samplePartitionForLang = new HashSet<Set<Triple<String, String, String>>>();
+        		samplePartitionsPerLang.put(area.getLang(), samplePartitionForLang);
+        		coveredConceptsPerLang.put(area.getLang(), new TreeSet<String>());
+        	}
+        	
+        	Set<Triple<String, String, String>> tripleSet = new TreeSet<Triple<String, String, String>>();
+        	for (String concept : area.getConcepts())
+        	{
+        		tripleSet.add(new ComparableTriple<String,String, String>(concept, area.getLang(), area.getLemma()));
+        		coveredConceptsPerLang.get(area.getLang()).add(concept);
+        	}
+
+			samplePartitionForLang.add(tripleSet);
+		}
+		List<Set<Set<Triple<String, String, String>>>> samplePartitions = new ArrayList<Set<Set<Triple<String, String, String>>>>();
+		for (String lang : samplePartitionsPerLang.keySet()) {
+			Set<String> coveredConcepts = coveredConceptsPerLang.get(lang);
+			Set<String> conceptsWithoutData = new TreeSet<String>();
+			for (String relevantConcept : relevantConcepts) {
+				if (!coveredConcepts.contains(relevantConcept)) {
+					conceptsWithoutData.add(relevantConcept);
+				}
+			}
+			if (conceptsWithoutData.size() == 0) {
+				System.out.println("  " + lang + " data included, all concepts are covered.");
+				samplePartitions.add(samplePartitionsPerLang.get(lang));
+			} else if (conceptsWithoutData.size() <= maxNumGapsPerLang) {
+				System.out.println("  " + lang + " data included, number of gaps is " + conceptsWithoutData.size());
+				samplePartitions.add(samplePartitionsPerLang.get(lang));
+			} else if (conceptsWithoutData.size() <= 5) {
+				System.out.println("  " + lang + " data discarded due to gaps for " + conceptsWithoutData.size() + " concepts: " + String.join(", ", conceptsWithoutData));
+			} else {
+				System.out.println("  " + lang + " data discarded due to gaps for " + conceptsWithoutData.size() + " concepts.");
+			}
+		}
+		return samplePartitions;
+	}
 }
