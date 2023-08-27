@@ -67,7 +67,7 @@ public class SemanticMapInference {
 		options.addOption(bootstrap);
 		// TODO: add optional specification of the number of bootstrap samples
 
-		Option directionality = new Option("d", "directionality", false, "Use causal inference to infer arrows.");
+		Option directionality = new Option("d", "directionality", false, "Perform directionality inference to produce a diachronic semantic map.");
 		options.addOption(directionality);
 		// TODO: add optional specification of strategy for directionality inference
 
@@ -80,12 +80,16 @@ public class SemanticMapInference {
 		Option concepts = Option.builder("c").longOpt("concepts").argName("conceptFile").hasArg().required(false)
 				.desc("Specify concepts. (default: all)").build();
 		options.addOption(concepts);
+		
+		Option languages = Option.builder("l").longOpt("languages").argName("languageFile").hasArg().required(false)
+				.desc("Specify languages. (default: all)").build();
+		options.addOption(languages);
 
-		Option input = Option.builder("i").longOpt("input").argName("isolecticSetsFile").hasArg().required(true)
+		Option input = Option.builder("i").longOpt("input").argName("inputFile").hasArg().required(true)
 				.desc("Specify input file (= isolectic sets).").build();
 		options.addOption(input);
 
-		Option output = Option.builder("vo").longOpt("visOutput").argName("outputDotFile").hasArg().required(false)
+		Option output = Option.builder("vo").longOpt("visOutput").argName("outputPrefix").hasArg().required(false)
 				.desc("Specify path and filename prefix for the visualized map(s).").build();
 		options.addOption(output);
 
@@ -93,9 +97,13 @@ public class SemanticMapInference {
 				.desc("Specify logfile (textual output).").build();
 		options.addOption(logfile);
 		
-		Option coordinates = Option.builder("vc").longOpt("coordinates").argName("coordinateFile").hasArg().required(false)
+		Option coordinates = Option.builder("vc").longOpt("coordinates").argName("coordFile").hasArg().required(false)
 				.desc("Specify coordinates for visualization output.").build();
 		options.addOption(coordinates);
+		
+		Option threshold = Option.builder("t").longOpt("threshold").argName("linkThreshold").hasArg().required(false)
+				.desc("Specify minimal number of colexifications for a link (recommended: 0 for perfect data, 3 for noisy databases).").build();
+		options.addOption(threshold);
 
 		return options;
 	}
@@ -118,6 +126,8 @@ public class SemanticMapInference {
 			Set<String> concepts = new TreeSet<String>();
 			String conceptFilePath = null;
 			int minConceptOccurrences = 0;
+			
+			double linkThreshold = 0;
 			
 			boolean directionality = false;
 
@@ -175,6 +185,13 @@ public class SemanticMapInference {
 				conceptFilePath = cmd.getOptionValue("concepts");
 				System.out.println("Analysis is limited to concepts specified in file: " + conceptFilePath);
 			}
+			
+			if (cmd.hasOption("t")) {
+				linkThreshold = Double.parseDouble(cmd.getOptionValue("threshold"));
+				System.out.println("Will require at least " + linkThreshold + " colexifications for a link (to correct for noisy input data).");
+			}
+			
+			
 
 			Set<IsolecticArea> isolecticAreas = IsolecticAreaReader.loadFromFile(inputFilePath);
 			//List<IsolecticArea> sample = new ArrayList<IsolecticArea>(isolecticAreas);
@@ -212,9 +229,7 @@ public class SemanticMapInference {
 			
 			double[][] thresholds = new double[concepts.size()][concepts.size()];
 			for (double[] thresholdRow : thresholds) {
-				Arrays.fill(thresholdRow, 0.00);
-				// 5.00 to let only links with some chance of directionality in hypergeometric
-				// test survive
+				Arrays.fill(thresholdRow, linkThreshold);
 			}
 			
 			for (int k = 0; k < numSamples; k++) {
@@ -234,7 +249,6 @@ public class SemanticMapInference {
 								continue;
 							int var2 = semanticMap.nameToVar.get(concept2);
 							if (var1 != var2) {
-								// System.err.println(area);
 								semanticMap.addLink(var1, var2);
 								semanticMap.putArrow(var1, var2, false);
 							}
