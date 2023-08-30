@@ -1,0 +1,2339 @@
+Reading isolectic sets from input file: /home/jdellert/synchro/arb/lty/smp-frontiers/experiments/clics3-full.tsv
+Will write semantic map in DOT format to output files with prefix /home/jdellert/synchro/arb/lty/smp-frontiers/experiments/perception/viberg1983
+DOT files will include coordinates specified in file /home/jdellert/synchro/arb/lty/smp-frontiers/experiments/perception/viberg1983-clics-concept-coordinates.tsv
+Will apply arrow inference in order to derive a diachronic semantic map.
+Analysis is limited to concepts specified in file: /home/jdellert/synchro/arb/lty/smp-frontiers/experiments/perception/viberg1983-clics-concepts.txt
+Will discard data from languages with more than 2 relevant concepts missing.
+  abag1245 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  abam1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  abau1245 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  abaz1241 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  abkh1244 data included, all concepts are covered.
+  abua1245 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  abui1241 data included, number of gaps is 2
+  abun1252 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  abun1254 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  acha1249 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  acha1250 data included, number of gaps is 2
+  ache1246 data included, all concepts are covered.
+  achi1257 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  adan1251 data included, number of gaps is 2
+  adny1235 data included, number of gaps is 2
+  adon1237 data included, number of gaps is 2
+  adyg1241 data included, all concepts are covered.
+  aeka1244 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  aeky1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  aghu1253 data included, all concepts are covered.
+  aghu1254 data included, number of gaps is 2
+  aghu1255 data included, number of gaps is 2
+  agii1245 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  agob1244 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  agua1253 data included, all concepts are covered.
+  aguf1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ahea1235 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  aheu1239 data included, number of gaps is 2
+  ahin1234 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  aika1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  aime1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ainu1240 data included, number of gaps is 1
+  ajam1240 data discarded due to gaps for 4 concepts: HEAR, SEE, TASTE (SOMETHING), TOUCH
+  ajie1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  akhv1239 data included, all concepts are covered.
+  akka1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  akla1241 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  akoy1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  alam1246 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  alba1267 data included, all concepts are covered.
+  alek1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  aleu1260 data included, all concepts are covered.
+  alor1247 data included, number of gaps is 2
+  alor1249 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  aluu1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  alya1239 data included, number of gaps is 2
+  amai1246 data included, number of gaps is 2
+  amal1242 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  amap1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  amba1265 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  amba1266 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  amba1268 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  amba1269 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ambu1247 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  amel1241 data included, number of gaps is 2
+  amga1235 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  amis1246 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  amol1235 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  amto1250 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  amun1246 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  anam1247 data included, number of gaps is 2
+  anam1248 data included, number of gaps is 2
+  anci1242 data included, all concepts are covered.
+  anci1244 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ancu1238 data included, all concepts are covered.
+  anda1281 data included, all concepts are covered.
+  ande1247 data included, number of gaps is 2
+  andi1255 data included, all concepts are covered.
+  anga1288 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  anga1290 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  anga1292 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  anga1293 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  anga1294 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  angg1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  angl1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  angl1258 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ango1255 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  angu1242 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  anja1238 data included, number of gaps is 2
+  anka1246 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ansu1237 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  anut1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  anya1244 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  aona1235 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  apal1256 data included, number of gaps is 2
+  apat1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  apma1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  apur1252 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  arab1267 data included, number of gaps is 2
+  aran1237 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  arao1248 data included, number of gaps is 1
+  araw1272 data included, number of gaps is 2
+  arch1244 data included, all concepts are covered.
+  area1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  argu1237 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  arhu1242 data included, number of gaps is 2
+  arig1248 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  arii1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  arik1265 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  aros1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  arua1260 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  arua1261 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  aruo1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  asar1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  asas1240 data included, number of gaps is 2
+  ashk1246 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  asia1264 data included, number of gaps is 2
+  assa1263 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  asue1235 data included, number of gaps is 2
+  asum1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  asut1235 data included, number of gaps is 1
+  atam1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  atan1241 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  atay1247 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  atem1241 data included, number of gaps is 2
+  atim1239 data included, number of gaps is 2
+  atoh1238 data included, number of gaps is 2
+  aust1307 data included, number of gaps is 1
+  auuu1241 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  avar1256 data included, all concepts are covered.
+  avas1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  aves1237 data included, number of gaps is 2
+  awab1243 data discarded due to gaps for 3 concepts: SEE, TASTE (SOMETHING), TOUCH
+  awac1239 data included, number of gaps is 2
+  awap1236 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  awar1248 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  awar1249 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  awer1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  awiy1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  awtu1239 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  awyi1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  awyu1263 data included, number of gaps is 2
+  axiy1235 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  ayor1240 data included, all concepts are covered.
+  baba1268 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  babu1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  baca1246 data included, number of gaps is 1
+  bade1248 data included, number of gaps is 1
+  badi1246 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  badj1244 data included, number of gaps is 2
+  baeg1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bael1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bagu1252 data included, number of gaps is 2
+  bagv1239 data included, all concepts are covered.
+  bagw1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  baha1258 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bahi1254 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  baib1249 data included, number of gaps is 2
+  baih1238 data included, number of gaps is 1
+  baim1245 data included, number of gaps is 2
+  baip1234 data included, number of gaps is 2
+  baka1276 data included, number of gaps is 2
+  bala1310 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bala1311 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bali1278 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  balk1252 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bama1253 data included, number of gaps is 2
+  bamb1269 data discarded due to gaps for 3 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING)
+  bamm1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bamu1257 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bana1292 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bana1305 data included, number of gaps is 1
+  band1358 data included, number of gaps is 2
+  bang1339 data included, number of gaps is 2
+  bang1363 data included, number of gaps is 2
+  bani1254 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bank1259 data included, number of gaps is 2
+  bara1347 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bara1372 data included, number of gaps is 2
+  bara1375 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bara1376 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bara1380 data included, number of gaps is 2
+  bare1273 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bare1274 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bare1275 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  barg1252 data included, number of gaps is 2
+  bari1290 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bari1297 data included, number of gaps is 2
+  baru1267 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  baru1269 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  basa1284 data included, number of gaps is 2
+  bash1264 data included, all concepts are covered.
+  basq1248 data included, all concepts are covered.
+  bata1289 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bata1298 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bata1301 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bata1314 data included, number of gaps is 1
+  batl1238 data included, all concepts are covered.
+  bats1242 data included, all concepts are covered.
+  batu1258 data included, number of gaps is 2
+  baty1234 data included, number of gaps is 2
+  baur1252 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  baur1253 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bauu1244 data included, number of gaps is 2
+  bauw1240 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bauz1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bayu1240 data included, number of gaps is 2
+  beam1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bedo1237 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  beij1234 data included, all concepts are covered.
+  bela1254 data included, all concepts are covered.
+  bela1261 data included, number of gaps is 2
+  beli1258 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bell1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bemb1257 data included, number of gaps is 2
+  bena1262 data included, number of gaps is 1
+  bena1264 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bend1258 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  beng1280 data included, all concepts are covered.
+  bent1238 data included, number of gaps is 2
+  bepo1240 data included, number of gaps is 2
+  beri1253 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  beri1254 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bezh1248 data included, all concepts are covered.
+  biak1248 data included, number of gaps is 2
+  bian1250 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bian1251 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  biao1254 data included, number of gaps is 1
+  bich1234 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bidy1243 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  biji1251 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  bila1257 data included, number of gaps is 2
+  bili1250 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bilu1245 data included, number of gaps is 2
+  bima1247 data included, number of gaps is 2
+  bimi1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bina1275 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bina1278 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bina1279 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bine1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bino1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bino1238 data included, number of gaps is 2
+  binu1244 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  binu1245 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bira1254 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  biri1256 data included, number of gaps is 2
+  biri1259 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  birr1241 data included, number of gaps is 2
+  bisi1244 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  biso1243 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bitt1240 data included, all concepts are covered.
+  biwa1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  biyo1243 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  biyo1244 data included, number of gaps is 2
+  blab1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  blag1240 data included, number of gaps is 2
+  blan1242 data included, all concepts are covered.
+  bobo1254 data included, number of gaps is 2
+  bodo1269 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  boga1247 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  boga1251 data included, number of gaps is 1
+  bogh1241 data included, number of gaps is 1
+  boik1241 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  boka1249 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  boly1239 data included, all concepts are covered.
+  bond1247 data included, number of gaps is 1
+  bond1248 data included, number of gaps is 2
+  bone1254 data included, number of gaps is 2
+  bone1255 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bong1287 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bong1291 data included, number of gaps is 2
+  bonk1244 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bopa1235 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bora1263 data included, number of gaps is 2
+  bore1246 data included, number of gaps is 2
+  bore1247 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  boro1278 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  boro1279 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bosh1240 data included, number of gaps is 1
+  bosn1248 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  botl1242 data included, all concepts are covered.
+  boto1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  botu1239 data included, number of gaps is 2
+  boze1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  brem1238 data included, number of gaps is 2
+  bret1244 data included, all concepts are covered.
+  budu1248 data included, all concepts are covered.
+  bugh1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bugi1244 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bugu1245 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  bugu1249 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  buki1249 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  buku1249 data included, number of gaps is 2
+  bula1255 data included, number of gaps is 2
+  bulg1262 data included, all concepts are covered.
+  buna1278 data included, number of gaps is 2
+  bung1264 data included, number of gaps is 2
+  bung1265 data included, number of gaps is 1
+  buno1241 data discarded due to gaps for 3 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING)
+  bunu1267 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  bura1274 data included, number of gaps is 2
+  bura1292 data included, number of gaps is 1
+  burg1246 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  buri1258 data included, all concepts are covered.
+  burm1264 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  buru1296 data included, number of gaps is 1
+  buru1303 data included, number of gaps is 2
+  buru1306 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  buru1308 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  buru1309 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  busa1254 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  buso1238 data included, number of gaps is 2
+  cabi1241 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  cacu1241 data included, number of gaps is 2
+  cala1258 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  cams1241 data included, number of gaps is 2
+  cane1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  cara1272 data included, number of gaps is 2
+  cari1279 data included, number of gaps is 2
+  carp1235 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  cash1251 data included, all concepts are covered.
+  cash1254 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  casi1235 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  casu1237 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  cavi1250 data included, all concepts are covered.
+  cayu1262 data included, number of gaps is 1
+  cebu1242 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  celt1247 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  cemu1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  cent1394 data included, number of gaps is 1
+  cent1972 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  cent2050 data included, all concepts are covered.
+  cent2072 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  cent2074 data included, number of gaps is 2
+  cent2084 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  cent2089 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  cent2110 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  cent2117 data discarded due to gaps for 4 concepts: HEAR, SEE, TASTE (SOMETHING), TOUCH
+  cent2118 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  cent2120 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  cent2128 data included, number of gaps is 1
+  cent2142 data included, number of gaps is 2
+  cent2150 data included, number of gaps is 2
+  cent2245 data included, number of gaps is 2
+  cent2257 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  cent2355 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  chac1249 data included, all concepts are covered.
+  chac1251 data included, all concepts are covered.
+  chad1240 data included, all concepts are covered.
+  chah1242 data included, number of gaps is 1
+  cham1309 data included, all concepts are covered.
+  cham1312 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  cham1313 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  chan1313 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  chan1326 data included, all concepts are covered.
+  chao1238 data included, all concepts are covered.
+  chec1245 data included, all concepts are covered.
+  chek1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  chen1259 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  chen1267 data included, all concepts are covered.
+  chep1245 data included, number of gaps is 2
+  chew1245 data included, number of gaps is 1
+  chib1270 data included, all concepts are covered.
+  chig1238 data included, number of gaps is 1
+  chim1309 data included, number of gaps is 2
+  chin1478 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  chip1262 data included, all concepts are covered.
+  chiq1248 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  chir1284 data included, all concepts are covered.
+  chok1243 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  chon1284 data included, all concepts are covered.
+  chru1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  chug1252 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  chuk1273 data included, number of gaps is 1
+  chuk1274 data included, number of gaps is 1
+  chur1257 data included, all concepts are covered.
+  chuu1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  chuv1255 data included, all concepts are covered.
+  ciac1237 data included, number of gaps is 2
+  ciba1236 data included, number of gaps is 1
+  cine1238 data included, number of gaps is 1
+  cint1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  cita1245 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  clas1249 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  clas1254 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  coas1297 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  cofa1242 data included, all concepts are covered.
+  cogu1240 data included, number of gaps is 2
+  cola1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  colo1256 data included, all concepts are covered.
+  corn1251 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  cota1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  crim1257 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  crim1258 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  croa1245 data included, all concepts are covered.
+  croi1234 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  cube1242 data included, number of gaps is 2
+  cuda1238 data included, all concepts are covered.
+  cuib1242 data included, number of gaps is 2
+  cune1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  cuoi1242 data included, all concepts are covered.
+  curr1243 data included, number of gaps is 2
+  czec1258 data included, all concepts are covered.
+  daai1236 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dadi1250 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dadu1237 data included, number of gaps is 2
+  dafa1241 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  daga1272 data included, number of gaps is 1
+  daga1275 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  daii1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dakp1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dali1242 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  dama1272 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dana1254 data included, number of gaps is 2
+  dani1285 data included, all concepts are covered.
+  dano1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dara1252 data included, number of gaps is 2
+  darg1241 data included, all concepts are covered.
+  darl1243 data included, number of gaps is 2
+  dass1243 data included, number of gaps is 1
+  dawe1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dayi1244 data included, number of gaps is 2
+  dazh1234 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  dedu1240 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dege1247 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dein1238 data included, number of gaps is 2
+  deir1239 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dela1252 data included, number of gaps is 2
+  demi1242 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  demm1245 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  demt1241 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dera1245 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dera1248 data included, number of gaps is 1
+  dere1243 data included, number of gaps is 2
+  desa1247 data included, number of gaps is 2
+  dghw1239 data included, number of gaps is 1
+  dhal1245 data included, number of gaps is 2
+  dhan1270 data included, number of gaps is 2
+  dhao1237 data included, number of gaps is 2
+  dhar1247 data included, number of gaps is 2
+  dhar1248 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dhiv1236 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dhud1236 data included, number of gaps is 2
+  dhur1239 data included, number of gaps is 2
+  dhuw1248 data included, number of gaps is 2
+  dhuw1249 data included, number of gaps is 2
+  diaa1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  diba1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dibi1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dido1241 data included, all concepts are covered.
+  dier1241 data included, number of gaps is 2
+  diga1241 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  dima1251 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dima1252 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dimi1244 data included, number of gaps is 2
+  diri1252 data included, number of gaps is 2
+  diri1259 data included, number of gaps is 1
+  djam1256 data included, number of gaps is 2
+  djap1238 data included, number of gaps is 2
+  djeo1235 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  djin1253 data included, number of gaps is 2
+  djiw1241 data included, number of gaps is 2
+  djuw1238 data included, number of gaps is 2
+  dobe1238 data included, number of gaps is 2
+  doee1238 data included, number of gaps is 1
+  dogh1241 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  doma1262 data included, number of gaps is 2
+  domu1246 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dong1286 data included, number of gaps is 1
+  dong1287 data included, number of gaps is 1
+  dori1246 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  doro1265 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  doro1266 data included, number of gaps is 2
+  doso1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dout1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  drun1238 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  dubu1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dudu1240 data included, number of gaps is 2
+  duke1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dulh1234 data included, number of gaps is 2
+  dump1243 data included, number of gaps is 2
+  dumu1247 data included, number of gaps is 2
+  duna1248 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  duri1243 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dusn1237 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dutc1256 data included, all concepts are covered.
+  duun1241 data included, number of gaps is 2
+  duvl1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dyaa1242 data included, number of gaps is 2
+  dyir1250 data included, number of gaps is 2
+  dzal1238 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  dzam1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  dzao1238 data included, number of gaps is 1
+  east1436 data included, all concepts are covered.
+  east2295 data included, all concepts are covered.
+  east2314 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  east2328 data included, all concepts are covered.
+  east2370 data included, number of gaps is 1
+  east2371 data included, number of gaps is 1
+  east2462 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  east2472 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  east2494 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  east2502 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  east2516 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  east2519 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  east2555 data included, all concepts are covered.
+  east2767 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  edol1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  edop1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  eipo1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ekaa1234 data included, number of gaps is 1
+  ekar1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  elam1244 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  elat1240 data included, number of gaps is 2
+  elfd1234 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  elke1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  else1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  emab1235 data included, number of gaps is 1
+  embe1260 data included, number of gaps is 2
+  embe1261 data included, number of gaps is 2
+  embe1262 data included, number of gaps is 2
+  embu1241 data included, number of gaps is 1
+  empl1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  emum1240 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  enap1235 data included, all concepts are covered.
+  ende1246 data included, number of gaps is 2
+  enga1251 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  enga1252 data included, number of gaps is 2
+  epen1239 data included, all concepts are covered.
+  erav1244 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  eray1237 data included, number of gaps is 2
+  eree1240 data included, number of gaps is 1
+  erit1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  erok1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ersu1241 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  eryu1239 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  erzy1239 data included, all concepts are covered.
+  esee1247 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  esee1248 data included, number of gaps is 1
+  esto1258 data included, all concepts are covered.
+  even1259 data included, all concepts are covered.
+  ewag1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  faga1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  faia1238 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  fait1240 data included, number of gaps is 2
+  faiw1243 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  fali1285 data included, number of gaps is 1
+  faro1244 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  farw1236 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  fasu1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  fata1245 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  fata1247 data included, number of gaps is 2
+  faur1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  fayu1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  femb1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  fiji1243 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  fina1242 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  fini1244 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  finn1318 data included, all concepts are covered.
+  fino1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  fior1236 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  fipa1238 data included, number of gaps is 1
+  flin1247 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  foau1240 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  foii1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  foii1242 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  fore1265 data included, all concepts are covered.
+  fore1270 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  fran1264 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  friu1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  funa1237 data included, number of gaps is 2
+  fuyu1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  fuzh1239 data included, all concepts are covered.
+  gaan1243 data included, number of gaps is 1
+  gadd1244 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  gads1258 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  gaee1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  gaga1249 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  gaik1242 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  gain1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  gali1258 data included, number of gaps is 2
+  gali1262 data included, number of gaps is 1
+  gall1278 data included, number of gaps is 2
+  galo1243 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  gama1253 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  gami1243 data included, number of gaps is 2
+  gand1255 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  gang1268 data included, number of gaps is 2
+  gang1270 data included, number of gaps is 2
+  gaoo1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  garu1246 data included, number of gaps is 2
+  gath1234 data included, number of gaps is 2
+  gavi1246 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  gawi1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  gaww1239 data included, all concepts are covered.
+  gdon1234 data included, number of gaps is 1
+  geag1239 data included, number of gaps is 2
+  geji1246 data included, number of gaps is 1
+  gela1263 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  gend1249 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  gera1246 data included, number of gaps is 1
+  geri1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  gese1240 data included, number of gaps is 2
+  ghai1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ghan1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ghar1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ghod1238 data included, all concepts are covered.
+  ghon1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ghul1238 data included, all concepts are covered.
+  giba1246 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  giga1238 data included, all concepts are covered.
+  gila1241 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  gilb1244 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  gily1242 data included, number of gaps is 1
+  gimi1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  gira1247 data included, number of gaps is 2
+  gizr1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  glav1244 data included, number of gaps is 1
+  goba1246 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  goem1240 data included, number of gaps is 1
+  gogo1265 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  goro1259 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  goro1272 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  goth1244 data included, number of gaps is 1
+  gras1249 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  grea1275 data included, number of gaps is 2
+  gree1278 data included, number of gaps is 1
+  gres1240 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  guah1255 data included, number of gaps is 2
+  guam1248 data included, number of gaps is 2
+  guan1269 data included, number of gaps is 2
+  guan1279 data included, all concepts are covered.
+  guay1257 data included, number of gaps is 2
+  gude1246 data included, number of gaps is 1
+  gudj1237 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  gudu1250 data included, number of gaps is 1
+  gudu1252 data included, number of gaps is 1
+  guga1239 data included, number of gaps is 2
+  gugu1255 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  guhu1244 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  guia1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  guib1244 data included, all concepts are covered.
+  guiq1238 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  guja1252 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  gula1270 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  guma1253 data included, number of gaps is 2
+  guma1255 data included, number of gaps is 2
+  gund1249 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  guny1241 data included, number of gaps is 2
+  gupa1247 data included, number of gaps is 2
+  gurd1238 data included, number of gaps is 2
+  gure1255 data included, number of gaps is 2
+  guri1247 data included, all concepts are covered.
+  guru1261 data included, number of gaps is 2
+  gurv1234 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  gusa1246 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  gusi1247 data included, number of gaps is 1
+  guuu1237 data included, number of gaps is 2
+  guwa1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  guya1249 data included, number of gaps is 2
+  gwah1244 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  gwen1239 data included, number of gaps is 1
+  gwer1238 data included, number of gaps is 1
+  haaa1252 data included, number of gaps is 1
+  habu1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  hale1239 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  halh1238 data included, all concepts are covered.
+  hama1240 data included, number of gaps is 2
+  hamt1247 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  hang1260 data included, number of gaps is 1
+  hani1248 data included, number of gaps is 1
+  haru1245 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  hata1243 data included, number of gaps is 2
+  haun1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  haus1257 data included, all concepts are covered.
+  hawa1245 data included, all concepts are covered.
+  hawk1239 data included, number of gaps is 2
+  haya1250 data included, number of gaps is 1
+  hebr1245 data included, all concepts are covered.
+  hefe1234 data included, all concepts are covered.
+  hehe1240 data included, number of gaps is 1
+  heqi1238 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  heyo1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  hidd1238 data included, all concepts are covered.
+  high1278 data included, number of gaps is 1
+  hind1269 data included, all concepts are covered.
+  hinu1240 data included, all concepts are covered.
+  hira1246 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  hiri1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  hitt1242 data included, number of gaps is 2
+  hlai1239 data included, all concepts are covered.
+  hmon1333 data included, all concepts are covered.
+  hoav1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  honi1244 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  honi1245 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  horo1249 data included, number of gaps is 2
+  horp1239 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  hrus1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  huaa1250 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  huba1236 data included, number of gaps is 1
+  hula1239 data included, number of gaps is 2
+  huli1244 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  humb1243 data discarded due to gaps for 3 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING)
+  hume1246 data included, number of gaps is 2
+  hung1274 data included, all concepts are covered.
+  hunj1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  hunz1247 data included, all concepts are covered.
+  hupd1244 data included, all concepts are covered.
+  huuu1240 data included, number of gaps is 1
+  hwan1240 data included, number of gaps is 1
+  hyaa1239 data included, number of gaps is 1
+  iame1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  iatm1242 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  iauu1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ibal1244 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  icel1247 data included, all concepts are covered.
+  idat1237 data included, number of gaps is 2
+  idum1241 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  igna1246 data included, number of gaps is 1
+  ihaa1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ihan1234 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ikiz1238 data included, number of gaps is 1
+  ikom1245 data included, number of gaps is 1
+  ikun1241 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ilai1239 data included, number of gaps is 2
+  ilea1237 data included, number of gaps is 2
+  ilia1236 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ilma1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ilok1237 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ilon1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ilpu1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ilwa1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  imba1240 data included, all concepts are covered.
+  imen1238 data included, number of gaps is 1
+  imro1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  imul1234 data included, number of gaps is 2
+  inan1242 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  inar1241 data included, all concepts are covered.
+  indo1316 data included, all concepts are covered.
+  indo1317 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  indo1319 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ineb1235 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  inga1252 data included, number of gaps is 2
+  ingu1240 data included, all concepts are covered.
+  inok1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  inxo1238 data included, all concepts are covered.
+  ipik1244 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ipil1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  iraq1241 data included, all concepts are covered.
+  irar1238 data included, number of gaps is 2
+  ires1239 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  iris1253 data included, all concepts are covered.
+  irup1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  isab1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  iseb1246 data included, number of gaps is 2
+  isir1237 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  isla1273 data included, number of gaps is 2
+  isna1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ital1282 data included, all concepts are covered.
+  itam1234 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  itel1242 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  iter1241 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  itik1240 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  itip1234 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  iton1250 data included, number of gaps is 2
+  iumi1238 data included, number of gaps is 1
+  ivat1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  iwam1256 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ixre1238 data included, all concepts are covered.
+  iyoj1235 data included, all concepts are covered.
+  iyoo1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  jama1262 data included, all concepts are covered.
+  jams1239 data included, number of gaps is 2
+  jaru1254 data included, number of gaps is 2
+  java1254 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  jena1242 data discarded due to gaps for 3 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING)
+  jeri1243 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  jian1239 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  jili1241 data included, number of gaps is 2
+  jina1245 data included, all concepts are covered.
+  jing1260 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  jino1236 data included, number of gaps is 1
+  jion1236 data included, number of gaps is 1
+  jire1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  jita1239 data included, number of gaps is 1
+  jude1256 data included, all concepts are covered.
+  kaba1278 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kaba1285 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kabo1247 data included, number of gaps is 2
+  kabu1249 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kach1280 data included, number of gaps is 1
+  kada1289 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kaer1234 data included, number of gaps is 2
+  kaes1237 data included, number of gaps is 2
+  kafo1240 data included, number of gaps is 2
+  kaha1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kahe1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kahu1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kaia1245 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kaik1246 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kaim1241 data included, number of gaps is 2
+  kain1272 data included, all concepts are covered.
+  kain1273 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kain1274 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kais1235 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kaiy1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kajt1238 data included, all concepts are covered.
+  kaki1249 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kala1256 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kala1376 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kala1377 data included, number of gaps is 2
+  kala1379 data included, number of gaps is 2
+  kala1380 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  kala1388 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kala1394 data included, number of gaps is 2
+  kala1397 data included, number of gaps is 2
+  kala1399 data included, number of gaps is 1
+  kale1247 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kali1300 data included, number of gaps is 2
+  kalk1246 data included, number of gaps is 2
+  kalm1243 data included, all concepts are covered.
+  kalo1256 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kalo1261 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kalu1248 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kama1360 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kama1364 data included, number of gaps is 2
+  kama1365 data included, number of gaps is 2
+  kama1370 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kama1373 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kamb1297 data included, number of gaps is 1
+  kamb1299 data included, number of gaps is 2
+  kamb1300 data included, number of gaps is 2
+  kamb1302 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kamb1303 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kamb1306 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kami1256 data included, number of gaps is 1
+  kamo1255 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kamu1260 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kamw1239 data included, number of gaps is 1
+  kana1286 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kana1293 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kang1291 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kanj1260 data included, number of gaps is 2
+  kapa1255 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kapo1248 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kapo1250 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kapr1245 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kara1473 data included, all concepts are covered.
+  kara1474 data included, all concepts are covered.
+  kara1476 data included, number of gaps is 2
+  kara1481 data included, number of gaps is 1
+  kara1495 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kara1499 data included, number of gaps is 2
+  kara1500 data discarded due to gaps for 3 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING)
+  karb1241 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kare1335 data included, all concepts are covered.
+  kare1341 data included, number of gaps is 2
+  kare1348 data included, number of gaps is 1
+  kari1304 data included, number of gaps is 2
+  kari1311 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  karo1303 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  karo1304 data included, all concepts are covered.
+  karo1305 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  karr1236 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kart1247 data included, number of gaps is 2
+  kash1277 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kasp1234 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kasu1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kasu1251 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kata1267 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kate1253 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kati1270 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kato1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kauk1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kaur1267 data included, number of gaps is 2
+  kaur1271 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kauw1242 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kava1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kawa1276 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kaxa1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kaya1328 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kaza1248 data included, all concepts are covered.
+  kazu1245 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  keda1252 data included, number of gaps is 2
+  kehu1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kein1239 data included, number of gaps is 2
+  kekc1242 data included, all concepts are covered.
+  kele1259 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kelo1247 data included, number of gaps is 2
+  kema1243 data included, number of gaps is 2
+  kemb1235 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kemt1242 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  keni1245 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  keoo1238 data included, number of gaps is 2
+  keor1235 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kera1256 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kere1283 data included, number of gaps is 1
+  kere1286 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kesa1244 data included, number of gaps is 2
+  kete1254 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kett1243 data included, all concepts are covered.
+  kewi1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  khal1275 data included, number of gaps is 2
+  kham1282 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  khan1273 data included, all concepts are covered.
+  khap1242 data included, number of gaps is 1
+  khas1269 data included, all concepts are covered.
+  khez1235 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  khin1240 data included, all concepts are covered.
+  khoc1238 data included, all concepts are covered.
+  khoi1252 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  khoi1253 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  khon1248 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  khot1251 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  khow1242 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  khum1248 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  khun1259 data included, all concepts are covered.
+  khva1239 data included, all concepts are covered.
+  kibi1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kiku1240 data included, number of gaps is 1
+  kild1236 data included, all concepts are covered.
+  kili1267 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kima1246 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kimb1242 data included, number of gaps is 1
+  kimm1245 data included, number of gaps is 1
+  kina1251 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kira1248 data included, number of gaps is 2
+  kire1240 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kiri1256 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kiry1234 data included, number of gaps is 1
+  kisa1266 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kisi1243 data included, number of gaps is 1
+  kiwa1252 data included, number of gaps is 2
+  kobo1248 data included, number of gaps is 2
+  kobo1249 data included, number of gaps is 2
+  kodi1247 data included, number of gaps is 2
+  koia1260 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  koia1261 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  koit1244 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  koko1265 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  koko1269 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kolo1267 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kolp1236 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  komb1273 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  komb1274 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  komi1268 data included, all concepts are covered.
+  komi1269 data included, all concepts are covered.
+  komo1261 data included, number of gaps is 2
+  komy1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kona1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kona1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kond1303 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kone1241 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  konk1267 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kony1246 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kooo1245 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kopa1248 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kope1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kora1294 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kora1296 data included, number of gaps is 2
+  kore1280 data included, all concepts are covered.
+  kore1283 data included, number of gaps is 2
+  koro1310 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  koro1312 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  koru1245 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kosa1249 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kosa1251 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kosh1245 data included, all concepts are covered.
+  koto1251 data included, number of gaps is 2
+  kova1243 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kowa1245 data included, number of gaps is 2
+  kowa1247 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kowi1239 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  koyo1242 data included, number of gaps is 2
+  koyr1240 data included, number of gaps is 2
+  kryt1240 data included, all concepts are covered.
+  kuba1248 data included, all concepts are covered.
+  kube1244 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kubo1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kuco1235 data included, number of gaps is 1
+  kuii1253 data included, number of gaps is 2
+  kuii1254 data included, number of gaps is 2
+  kuik1246 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kuka1246 data included, number of gaps is 2
+  kuku1273 data included, number of gaps is 2
+  kuku1280 data included, number of gaps is 2
+  kula1275 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  kula1280 data included, number of gaps is 2
+  kuli1254 data included, number of gaps is 2
+  kulo1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kuma1273 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kuma1280 data included, number of gaps is 2
+  kumb1268 data included, number of gaps is 2
+  kumb1274 data included, number of gaps is 2
+  kumi1249 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kumu1247 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kumy1244 data included, all concepts are covered.
+  kung1258 data included, number of gaps is 2
+  kuni1264 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kuni1265 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kunm1234 data included, all concepts are covered.
+  kunz1243 data included, all concepts are covered.
+  kunz1244 data included, number of gaps is 1
+  kuot1243 data included, number of gaps is 2
+  kuri1259 data included, number of gaps is 1
+  kurr1243 data included, number of gaps is 2
+  kuru1305 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kuru1307 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kusa1251 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kusa1252 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kutu1263 data included, number of gaps is 1
+  kuuk1238 data included, number of gaps is 2
+  kuun1236 data included, number of gaps is 2
+  kuyu1236 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kwai1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kwal1257 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  kwar1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kwat1244 data included, number of gaps is 2
+  kway1241 data included, number of gaps is 1
+  kwaz1243 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kwer1261 data included, number of gaps is 1
+  kwer1264 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kwes1245 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kwom1262 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kyak1244 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  kyen1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  labi1245 data included, number of gaps is 1
+  ladi1250 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lagh1246 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lahu1252 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  laia1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  laka1255 data discarded due to gaps for 3 concepts: SEE, TASTE (SOMETHING), TOUCH
+  lake1255 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lakk1238 data included, all concepts are covered.
+  lakk1252 data included, all concepts are covered.
+  laku1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lama1277 data included, number of gaps is 2
+  lama1279 data included, number of gaps is 2
+  lama1298 data included, number of gaps is 2
+  lama1299 data included, number of gaps is 2
+  lama1300 data included, number of gaps is 2
+  lamb1272 data included, number of gaps is 1
+  lamb1273 data included, number of gaps is 2
+  lame1257 data included, number of gaps is 1
+  lamk1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lamm1241 data included, number of gaps is 2
+  lang1316 data included, all concepts are covered.
+  lang1320 data included, number of gaps is 1
+  lanp1241 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lapa1247 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  larg1235 data included, number of gaps is 1
+  lasa1237 data included, number of gaps is 2
+  lati1261 data included, all concepts are covered.
+  latu1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  latv1249 data included, all concepts are covered.
+  latv1250 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lauu1247 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lavu1241 data included, number of gaps is 2
+  lawn1238 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  lazz1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  leba1239 data included, number of gaps is 2
+  leco1242 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lega1249 data included, number of gaps is 2
+  lema1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lemb1266 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lemi1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  leng1259 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  leng1262 data included, all concepts are covered.
+  leni1238 data included, number of gaps is 2
+  lepc1244 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lewo1243 data included, number of gaps is 2
+  lewo1244 data included, number of gaps is 2
+  lewo1245 data included, number of gaps is 2
+  lewo1246 data included, number of gaps is 2
+  lewo1247 data included, number of gaps is 2
+  lewo1249 data included, number of gaps is 2
+  lewo1251 data included, number of gaps is 2
+  lezg1247 data included, all concepts are covered.
+  liab1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lian1251 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lich1241 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  lima1248 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lioo1240 data included, number of gaps is 2
+  lish1235 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lisu1250 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  lith1251 data included, all concepts are covered.
+  lith1252 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  livv1243 data included, all concepts are covered.
+  livv1244 data included, all concepts are covered.
+  liwe1234 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lixi1238 data included, number of gaps is 1
+  logo1258 data included, number of gaps is 1
+  logu1236 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lole1239 data included, number of gaps is 2
+  loma1262 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  long1395 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  loth1237 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lowe1385 data included, all concepts are covered.
+  lowe1402 data included, number of gaps is 2
+  lowe1415 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lowe1416 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lowe1437 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  luan1264 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lubu1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lugu1238 data included, number of gaps is 2
+  lule1254 data included, all concepts are covered.
+  lung1249 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  luop1235 data included, number of gaps is 1
+  lush1249 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  luuu1242 data included, all concepts are covered.
+  lwan1234 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lyci1241 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  lydi1241 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  maan1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  maas1239 data included, number of gaps is 2
+  mabu1247 data included, number of gaps is 2
+  maca1259 data included, number of gaps is 2
+  maca1260 data included, all concepts are covered.
+  mach1266 data included, number of gaps is 1
+  macu1259 data included, number of gaps is 1
+  macu1260 data included, number of gaps is 2
+  mada1286 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mada1298 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  madh1244 data included, number of gaps is 2
+  madi1261 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mado1239 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  maer1238 data included, number of gaps is 1
+  mafa1239 data included, number of gaps is 1
+  maga1261 data included, number of gaps is 2
+  mago1249 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  maha1287 data included, number of gaps is 1
+  maia1254 data included, number of gaps is 2
+  maib1239 data included, number of gaps is 2
+  mail1248 data included, number of gaps is 2
+  mait1250 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  maiw1251 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  maka1316 data included, number of gaps is 2
+  maka1325 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  makl1246 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mako1251 data included, number of gaps is 1
+  maku1278 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mala1464 data included, all concepts are covered.
+  mala1483 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mala1484 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mala1494 data included, number of gaps is 2
+  mala1495 data included, number of gaps is 2
+  mala1522 data included, number of gaps is 2
+  mala1545 data included, number of gaps is 2
+  male1291 data included, number of gaps is 2
+  malg1242 data included, number of gaps is 2
+  mali1278 data included, number of gaps is 1
+  mali1279 data included, number of gaps is 1
+  mali1284 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  maln1239 data included, number of gaps is 2
+  maly1234 data included, number of gaps is 2
+  mama1275 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mama1277 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mama1278 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mamb1297 data included, number of gaps is 1
+  mamb1298 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mamb1306 data included, number of gaps is 2
+  mana1288 data included, all concepts are covered.
+  mana1298 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  manc1252 data included, number of gaps is 1
+  mand1415 data included, all concepts are covered.
+  mand1423 data included, number of gaps is 1
+  mand1443 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mand1444 data included, number of gaps is 2
+  mand1476 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  mane1266 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mang1378 data included, all concepts are covered.
+  mang1383 data included, number of gaps is 2
+  mang1405 data included, number of gaps is 2
+  mani1235 data included, number of gaps is 2
+  mani1292 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  manm1238 data included, all concepts are covered.
+  mano1275 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mans1258 data included, all concepts are covered.
+  mans1260 data included, number of gaps is 2
+  mans1262 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  manu1261 data discarded due to gaps for 3 concepts: SEE, TASTE (SOMETHING), TOUCH
+  manx1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  maon1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  maon1241 data included, all concepts are covered.
+  maor1246 data included, number of gaps is 1
+  mape1249 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mapu1245 data included, all concepts are covered.
+  maqu1238 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mara1378 data included, all concepts are covered.
+  mara1379 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mara1397 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mara1398 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mara1404 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mare1261 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  marg1253 data included, number of gaps is 2
+  marg1265 data included, number of gaps is 1
+  marg1266 data included, number of gaps is 1
+  mari1416 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mari1427 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mari1438 data included, number of gaps is 2
+  mari1439 data included, number of gaps is 2
+  maro1244 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mars1254 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mart1256 data included, number of gaps is 2
+  marw1256 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  masa1295 data included, number of gaps is 1
+  masa1299 data included, number of gaps is 1
+  masa1322 data included, number of gaps is 1
+  mash1270 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  masi1266 data included, number of gaps is 2
+  masi1269 data included, number of gaps is 2
+  masi1270 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mate1258 data included, number of gaps is 1
+  mate1260 data included, number of gaps is 2
+  mati1250 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  matu1259 data included, number of gaps is 1
+  mauw1238 data included, number of gaps is 2
+  mawa1264 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mawa1265 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mawa1266 data included, number of gaps is 2
+  mawa1267 data included, number of gaps is 2
+  mawe1251 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  maya1280 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  maya1282 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mayi1234 data included, number of gaps is 2
+  mayi1235 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mayi1236 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mbab1239 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  mbun1248 data included, number of gaps is 1
+  mehe1243 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  meko1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mekw1241 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mena1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mend1268 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  meny1245 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  merd1234 data included, number of gaps is 2
+  meri1243 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  meru1245 data included, number of gaps is 1
+  mese1244 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mesm1239 data included, number of gaps is 1
+  meya1236 data included, number of gaps is 2
+  mezq1235 data included, all concepts are covered.
+  mian1254 data included, number of gaps is 2
+  mian1256 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  midd1316 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  midd1317 data included, all concepts are covered.
+  midd1318 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  midd1321 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  midd1343 data included, all concepts are covered.
+  midd1344 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  midd1350 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  midd1359 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  midd1360 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  midd1363 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  midg1235 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  midi1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  miga1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  miji1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  miju1243 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  mina1274 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ming1252 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ming1256 data included, number of gaps is 2
+  mini1253 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mini1256 data included, number of gaps is 2
+  minj1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mish1244 data included, number of gaps is 1
+  mism1239 data discarded due to gaps for 4 concepts: HEAR, SEE, TASTE (SOMETHING), TOUCH
+  mith1236 data included, number of gaps is 2
+  miya1266 data included, number of gaps is 1
+  mkuu1238 data included, number of gaps is 2
+  mlab1235 data included, all concepts are covered.
+  mlap1238 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  moch1256 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  moco1246 data included, all concepts are covered.
+  mode1248 data included, all concepts are covered.
+  moer1240 data included, number of gaps is 2
+  moii1235 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  moks1248 data included, all concepts are covered.
+  moli1247 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  molo1262 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  moma1243 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  momb1254 data included, number of gaps is 2
+  momu1241 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mong1332 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  moni1261 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mono1273 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mora1239 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mora1273 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  morb1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  more1258 data included, number of gaps is 2
+  mori1271 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  morm1235 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  moro1289 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mosa1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mose1249 data included, all concepts are covered.
+  mosi1248 data included, number of gaps is 2
+  mosk1236 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  motu1246 data included, number of gaps is 2
+  moun1252 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mouw1234 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  movi1243 data included, all concepts are covered.
+  mpot1240 data included, number of gaps is 1
+  mpur1239 data included, number of gaps is 2
+  mroc1235 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  muba1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mudb1240 data included, number of gaps is 2
+  muin1242 data included, number of gaps is 2
+  mula1253 data included, all concepts are covered.
+  mula1254 data included, number of gaps is 2
+  mula1255 data included, number of gaps is 2
+  mumm1238 data included, number of gaps is 2
+  munc1235 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mund1330 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mung1269 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  mung1272 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  muni1255 data included, all concepts are covered.
+  muni1257 data included, number of gaps is 2
+  mura1271 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  muri1260 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  muru1266 data included, number of gaps is 2
+  muru1273 data included, number of gaps is 2
+  muru1274 data included, number of gaps is 2
+  musa1265 data included, number of gaps is 2
+  musa1266 data included, number of gaps is 2
+  muse1242 data included, number of gaps is 1
+  muya1239 data included, number of gaps is 1
+  mwag1236 data included, number of gaps is 1
+  mwer1248 data included, number of gaps is 1
+  mzie1235 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  naaa1244 data included, number of gaps is 1
+  naba1256 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nabi1239 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nafr1241 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  naga1403 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nage1237 data included, number of gaps is 2
+  naka1264 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  naka1265 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nake1240 data included, number of gaps is 2
+  nalc1240 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  namb1293 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nami1256 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  namo1246 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  namp1239 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  namu1246 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  nana1257 data included, number of gaps is 1
+  nanc1254 data included, all concepts are covered.
+  nang1261 data included, number of gaps is 2
+  nang1262 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nanh1240 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  nank1250 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  narr1259 data included, number of gaps is 2
+  narr1281 data included, number of gaps is 1
+  naru1238 data included, number of gaps is 2
+  natu1246 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  naue1237 data included, number of gaps is 2
+  naxi1245 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  ndal1241 data included, number of gaps is 1
+  ndam1239 data included, number of gaps is 1
+  nden1248 data included, number of gaps is 1
+  ndii1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ndom1245 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nduu1242 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nede1245 data included, number of gaps is 2
+  nege1244 data included, number of gaps is 1
+  negr1235 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nekg1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nekk1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  neko1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nend1239 data included, number of gaps is 2
+  nene1249 data included, all concepts are covered.
+  nepa1254 data included, number of gaps is 1
+  nesu1235 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  newa1246 data included, number of gaps is 2
+  ngaa1240 data included, number of gaps is 2
+  ngad1257 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ngad1258 data included, number of gaps is 2
+  ngad1267 data included, number of gaps is 2
+  ngai1241 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ngal1291 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ngal1298 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ngal1300 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ngam1282 data included, number of gaps is 1
+  ngam1284 data included, number of gaps is 2
+  ngan1291 data included, all concepts are covered.
+  ngao1245 data included, number of gaps is 2
+  ngar1235 data included, number of gaps is 2
+  ngar1287 data included, number of gaps is 2
+  ngar1296 data included, number of gaps is 2
+  ngar1297 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ngas1240 data included, number of gaps is 1
+  ngaw1240 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  nggw1242 data included, number of gaps is 1
+  ngin1244 data included, number of gaps is 1
+  ngin1246 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ngiz1242 data included, number of gaps is 1
+  ngka1235 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ngon1269 data included, number of gaps is 1
+  ngul1246 data included, number of gaps is 1
+  ngun1277 data included, number of gaps is 2
+  ngur1263 data included, number of gaps is 1
+  nhan1238 data included, number of gaps is 2
+  nhir1234 data included, number of gaps is 2
+  nila1242 data included, number of gaps is 1
+  nila1244 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nimi1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nimo1247 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nina1238 data included, number of gaps is 2
+  ning1273 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ning1274 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nisu1238 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  niva1238 data included, all concepts are covered.
+  nobo1238 data included, number of gaps is 2
+  noct1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  noga1249 data included, all concepts are covered.
+  noko1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nomu1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nort1545 data included, all concepts are covered.
+  nort2627 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nort2641 data included, all concepts are covered.
+  nort2646 data included, all concepts are covered.
+  nort2655 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nort2671 data included, all concepts are covered.
+  nort2683 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nort2690 data included, all concepts are covered.
+  nort2697 data included, all concepts are covered.
+  nort2722 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  nort2725 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nort2740 data included, all concepts are covered.
+  nort2745 data included, all concepts are covered.
+  nort2747 data included, number of gaps is 1
+  nort2749 data included, number of gaps is 1
+  nort2753 data discarded due to gaps for 3 concepts: SEE, TASTE (SOMETHING), TOUCH
+  nort2754 data included, number of gaps is 2
+  nort2760 data discarded due to gaps for 3 concepts: SEE, TASTE (SOMETHING), TOUCH
+  nort2770 data included, number of gaps is 1
+  nort2860 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nort2877 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nort2909 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nort2916 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nort2917 data discarded due to gaps for 4 concepts: HEAR, SEE, TASTE (SOMETHING), TOUCH
+  nort2920 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nort2938 data included, number of gaps is 2
+  nort2972 data included, all concepts are covered.
+  norw1258 data included, all concepts are covered.
+  norw1259 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  norw1262 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nucl1235 data included, all concepts are covered.
+  nucl1276 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nucl1290 data included, all concepts are covered.
+  nucl1301 data included, all concepts are covered.
+  nucl1302 data included, all concepts are covered.
+  nucl1305 data included, all concepts are covered.
+  nucl1310 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  nucl1379 data included, number of gaps is 2
+  nucl1452 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nucl1453 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nucl1454 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nucl1460 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nucl1516 data included, number of gaps is 2
+  nucl1535 data included, number of gaps is 2
+  nucl1574 data included, number of gaps is 2
+  nucl1577 data included, number of gaps is 2
+  nucl1580 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nucl1594 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nucl1595 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nucl1603 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nucl1622 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nucl1630 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nucl1632 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nucl1633 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nucl1634 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nucl1643 data included, all concepts are covered.
+  nucl1649 data included, number of gaps is 2
+  nucl1683 data included, number of gaps is 1
+  nucl1695 data included, number of gaps is 1
+  nucl1696 data included, number of gaps is 1
+  nucl1709 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nuji1238 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nuka1242 data included, number of gaps is 2
+  nukk1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nukn1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  numa1251 data included, number of gaps is 1
+  numa1254 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  numu1240 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nung1282 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  nung1283 data included, all concepts are covered.
+  nunu1247 data included, number of gaps is 1
+  nupo1240 data included, number of gaps is 2
+  nusu1239 data included, number of gaps is 1
+  nuuc1236 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  nyah1250 data included, all concepts are covered.
+  nyak1261 data included, number of gaps is 1
+  nyam1271 data included, number of gaps is 2
+  nyam1275 data included, number of gaps is 1
+  nyam1276 data included, number of gaps is 1
+  nyam1277 data included, number of gaps is 1
+  nyan1301 data included, number of gaps is 2
+  nyan1307 data included, number of gaps is 1
+  nyat1246 data included, number of gaps is 1
+  nyih1240 data included, number of gaps is 1
+  nyor1246 data included, number of gaps is 1
+  nyun1247 data included, number of gaps is 2
+  nzan1240 data included, number of gaps is 1
+  obok1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ocai1244 data included, number of gaps is 2
+  occi1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ocea1241 data included, number of gaps is 2
+  odia1239 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  odoo1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  oduu1239 data included, number of gaps is 1
+  ogea1238 data included, number of gaps is 2
+  oiba1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  oira1263 data included, number of gaps is 2
+  okok1235 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  oksa1245 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  olda1245 data included, all concepts are covered.
+  oldb1235 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  oldb1248 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  oldc1244 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  oldc1252 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  oldd1237 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  olde1238 data included, all concepts are covered.
+  oldf1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  oldf1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  oldg1234 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  oldh1241 data included, all concepts are covered.
+  oldi1245 data included, all concepts are covered.
+  oldm1244 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  oldn1244 data included, all concepts are covered.
+  oldp1253 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  oldp1254 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  oldr1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  olds1249 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  olds1250 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  olds1252 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  oldw1239 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  oloo1241 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  omie1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  onaa1245 data included, all concepts are covered.
+  onin1245 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  onob1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  onoo1246 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  onto1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  opao1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  orej1242 data included, number of gaps is 2
+  oriy1255 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ormu1248 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  oroh1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  orok1267 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  orok1269 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  oroq1238 data included, number of gaps is 1
+  orow1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  orya1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  osca1245 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  osse1243 data included, all concepts are covered.
+  ouji1238 data included, all concepts are covered.
+  owin1240 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  paam1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  paca1246 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  paez1247 data included, all concepts are covered.
+  pahi1246 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  pahl1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  pahn1237 data included, number of gaps is 1
+  paiw1248 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  paka1251 data included, number of gaps is 2
+  pala1336 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  pali1273 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  pall1243 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  pall1244 data included, number of gaps is 2
+  palu1252 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  pamo1253 data included, number of gaps is 2
+  pamp1244 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  panc1247 data included, number of gaps is 2
+  pand1262 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  pang1287 data included, number of gaps is 1
+  pani1258 data included, number of gaps is 2
+  panj1256 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  pano1254 data included, all concepts are covered.
+  pany1241 data included, number of gaps is 2
+  paok1235 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  papa1269 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  papi1255 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  papu1251 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  para1299 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  para1307 data included, number of gaps is 2
+  para1311 data included, all concepts are covered.
+  parb1234 data included, number of gaps is 2
+  pare1271 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  pari1257 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  pass1247 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  pati1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  pawa1255 data included, number of gaps is 2
+  payn1244 data included, number of gaps is 2
+  pear1247 data included, all concepts are covered.
+  peaw1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  pena1270 data discarded due to gaps for 3 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING)
+  perg1234 data included, number of gaps is 2
+  pero1241 data included, number of gaps is 1
+  peve1243 data included, number of gaps is 1
+  phai1238 data included, number of gaps is 1
+  phom1236 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  phon1246 data included, all concepts are covered.
+  piap1246 data included, number of gaps is 2
+  pila1245 data included, all concepts are covered.
+  pila1246 data included, number of gaps is 2
+  pile1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  pimb1238 data included, number of gaps is 1
+  pina1252 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  pint1250 data included, number of gaps is 2
+  pint1251 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  pint1252 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  pira1254 data included, number of gaps is 2
+  pirr1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  pitj1243 data included, number of gaps is 2
+  pitt1247 data included, number of gaps is 2
+  plat1254 data included, all concepts are covered.
+  play1240 data included, number of gaps is 2
+  poch1243 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  poda1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  pogo1243 data included, number of gaps is 1
+  pohn1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  polc1243 data included, all concepts are covered.
+  pole1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  poli1260 data included, all concepts are covered.
+  poly1242 data included, number of gaps is 1
+  pomm1237 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  port1283 data included, all concepts are covered.
+  pouy1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  pras1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  prek1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  prob1239 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  prus1238 data included, number of gaps is 2
+  psik1239 data included, number of gaps is 1
+  puel1244 data included, number of gaps is 2
+  puin1248 data included, number of gaps is 1
+  puka1244 data included, number of gaps is 2
+  pula1267 data included, number of gaps is 2
+  pume1238 data included, all concepts are covered.
+  pura1253 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  pura1257 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  pura1258 data included, number of gaps is 2
+  puru1264 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  puta1243 data included, number of gaps is 1
+  puyu1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  pyuu1245 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  qaqe1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  qaua1234 data included, all concepts are covered.
+  qawa1238 data included, number of gaps is 1
+  qili1234 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  qing1238 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  quba1246 data included, all concepts are covered.
+  quey1238 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  rahu1234 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  raic1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  raoo1244 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  rapa1244 data included, all concepts are covered.
+  rapt1240 data included, number of gaps is 2
+  rasa1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  rawa1267 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  rawo1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  remp1241 data included, number of gaps is 2
+  renn1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  rera1240 data included, number of gaps is 2
+  resi1247 data included, number of gaps is 2
+  rett1240 data included, number of gaps is 2
+  rian1263 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  rihu1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ring1244 data discarded due to gaps for 3 concepts: SEE, TASTE (SOMETHING), TOUCH
+  riri1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  rirr1238 data included, number of gaps is 2
+  rita1239 data included, number of gaps is 2
+  rois1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  roma1326 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  roma1327 data included, all concepts are covered.
+  roma1328 data included, number of gaps is 1
+  roma1332 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  rong1266 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  rong1269 data included, number of gaps is 2
+  roon1237 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  rotu1241 data included, all concepts are covered.
+  rovi1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  rucc1239 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ruka1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ruma1248 data included, number of gaps is 1
+  rumb1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  rumu1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  rund1242 data included, number of gaps is 2
+  rung1255 data included, number of gaps is 1
+  rupa1234 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  russ1263 data included, all concepts are covered.
+  rutu1240 data included, all concepts are covered.
+  saaa1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  saam1283 data included, number of gaps is 1
+  saar1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  saba1268 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  saep1240 data included, number of gaps is 2
+  safe1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  safw1238 data included, number of gaps is 1
+  saga1261 data included, all concepts are covered.
+  sahu1245 data included, number of gaps is 2
+  sais1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  saka1292 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  saki1248 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sala1265 data included, all concepts are covered.
+  sali1298 data included, number of gaps is 2
+  sama1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  samb1321 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  same1240 data included, number of gaps is 1
+  samm1244 data included, number of gaps is 2
+  samo1303 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  samo1305 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  samo1306 data included, number of gaps is 2
+  samp1253 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sana1298 data included, all concepts are covered.
+  sand1270 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sang1321 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sang1330 data included, number of gaps is 1
+  sang1336 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sani1270 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sans1269 data included, all concepts are covered.
+  sant1413 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sant1414 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sapo1254 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sara1327 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sara1340 data included, all concepts are covered.
+  sari1248 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sarr1247 data included, number of gaps is 2
+  sart1249 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  saru1243 data included, number of gaps is 2
+  sauk1252 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  saus1246 data included, number of gaps is 2
+  saus1247 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  savo1255 data included, number of gaps is 2
+  sawa1247 data included, number of gaps is 2
+  sawi1256 data included, number of gaps is 2
+  sawi1257 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  saya1246 data included, number of gaps is 1
+  scot1245 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  seba1248 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sebe1243 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  seco1241 data included, number of gaps is 2
+  sege1235 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  seka1247 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sele1250 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  selk1253 data included, all concepts are covered.
+  semi1264 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  semp1241 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sene1263 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  seng1282 data discarded due to gaps for 4 concepts: HEAR, SEE, TASTE (SOMETHING), TOUCH
+  seng1285 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sepe1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sepo1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  serb1264 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  seri1255 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  seri1257 data included, all concepts are covered.
+  seru1244 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  seru1245 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sese1246 data included, all concepts are covered.
+  seta1245 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  seta1246 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  seti1246 data included, number of gaps is 2
+  seti1248 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sham1280 data included, number of gaps is 1
+  shan1274 data included, number of gaps is 2
+  shan1277 data included, all concepts are covered.
+  shee1238 data included, number of gaps is 1
+  shen1252 data included, all concepts are covered.
+  sher1255 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sher1256 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sher1261 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  shin1265 data included, all concepts are covered.
+  ship1254 data included, number of gaps is 1
+  shix1238 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  shub1238 data included, number of gaps is 1
+  shug1248 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sial1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sian1257 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  siaw1243 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sibo1242 data included, number of gaps is 2
+  sich1238 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  siha1242 data included, number of gaps is 1
+  siha1245 data included, number of gaps is 2
+  sika1261 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sika1262 data included, number of gaps is 2
+  sika1263 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sile1255 data included, number of gaps is 2
+  sili1247 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sili1249 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  silo1240 data included, number of gaps is 2
+  simb1255 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  simb1256 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sina1266 data included, number of gaps is 2
+  sina1269 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sind1272 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sing1271 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sinh1246 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sino1246 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sins1241 data included, number of gaps is 2
+  sint1235 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  siom1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sion1247 data included, number of gaps is 1
+  sira1267 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  siri1273 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  siri1274 data included, number of gaps is 2
+  siro1249 data included, number of gaps is 2
+  sisi1249 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sisi1250 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  situ1238 data included, number of gaps is 1
+  skol1241 data included, all concepts are covered.
+  slov1268 data included, all concepts are covered.
+  slov1269 data included, all concepts are covered.
+  sobe1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  soga1242 data included, number of gaps is 1
+  soga1243 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sogd1245 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  soge1235 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  somm1240 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  somr1240 data included, all concepts are covered.
+  soni1260 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sope1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sopp1247 data included, number of gaps is 2
+  sout1528 data included, all concepts are covered.
+  sout2642 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sout2674 data included, all concepts are covered.
+  sout2694 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sout2723 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  sout2728 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sout2732 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sout2741 data included, all concepts are covered.
+  sout2746 data included, all concepts are covered.
+  sout2750 data included, all concepts are covered.
+  sout2752 data included, all concepts are covered.
+  sout2754 data included, number of gaps is 1
+  sout2765 data included, number of gaps is 2
+  sout2866 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sout2883 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sout2896 data included, number of gaps is 2
+  sout2898 data included, number of gaps is 2
+  sout2934 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sout2940 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sout2941 data included, number of gaps is 2
+  sout2943 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sout2949 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sout2950 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sout3148 data included, number of gaps is 2
+  sout3210 data included, number of gaps is 1
+  sowa1245 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  stan1288 data included, all concepts are covered.
+  stan1289 data included, all concepts are covered.
+  stan1290 data included, all concepts are covered.
+  stan1293 data included, all concepts are covered.
+  stan1295 data included, all concepts are covered.
+  stan1308 data included, number of gaps is 2
+  stan1318 data included, all concepts are covered.
+  suab1238 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  suba1238 data included, number of gaps is 1
+  suen1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  suii1243 data included, number of gaps is 1
+  suki1245 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  suku1261 data included, number of gaps is 1
+  suma1270 data included, number of gaps is 2
+  sumb1240 data included, number of gaps is 1
+  sumi1235 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sund1252 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sunw1242 data included, number of gaps is 2
+  suoy1242 data included, number of gaps is 1
+  suri1265 data included, number of gaps is 1
+  suri1271 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  suru1262 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  suzh1234 data included, all concepts are covered.
+  svan1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  swah1253 data included, all concepts are covered.
+  swed1254 data included, all concepts are covered.
+  swis1247 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  sydn1236 data included, number of gaps is 2
+  taba1259 data included, all concepts are covered.
+  tabo1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tabr1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  taca1256 data included, all concepts are covered.
+  tafo1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  taga1270 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tagb1258 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tahi1242 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  taik1255 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tain1252 data included, all concepts are covered.
+  tain1253 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tair1256 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tait1250 data included, number of gaps is 1
+  taji1245 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  taki1248 data included, all concepts are covered.
+  taki1249 data included, number of gaps is 2
+  tali1259 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  taly1247 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tama1336 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tamb1257 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tami1289 data included, all concepts are covered.
+  tana1283 data included, number of gaps is 2
+  tana1288 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tand1253 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tand1254 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tane1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tang1353 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tang1355 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tani1255 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tani1257 data included, number of gaps is 2
+  tanj1250 data included, number of gaps is 2
+  taob1238 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  taop1238 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  tape1242 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tari1255 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tari1256 data included, number of gaps is 2
+  tari1263 data included, all concepts are covered.
+  taro1259 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  taro1264 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tarp1240 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tata1255 data included, all concepts are covered.
+  tate1244 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tatu1247 data included, number of gaps is 2
+  taua1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  taul1251 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  taus1251 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  taus1252 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tauy1241 data included, number of gaps is 2
+  tave1240 data discarded due to gaps for 4 concepts: HEAR, SEE, SMELL (PERCEIVE), TOUCH
+  tavr1235 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tawo1244 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tbol1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tean1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tebe1252 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tebu1239 data included, number of gaps is 2
+  tehi1237 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tehu1242 data included, number of gaps is 1
+  teiw1235 data included, number of gaps is 2
+  tela1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tele1256 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  telu1262 data included, all concepts are covered.
+  temi1247 data included, number of gaps is 1
+  teng1273 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tera1251 data included, number of gaps is 1
+  term1237 data included, number of gaps is 2
+  tetu1246 data discarded due to gaps for 3 concepts: SEE, TASTE (SOMETHING), TOUCH
+  teun1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  thai1261 data included, all concepts are covered.
+  thak1245 data included, number of gaps is 2
+  than1255 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  thao1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  thar1283 data included, number of gaps is 1
+  thur1254 data included, number of gaps is 2
+  tiay1238 data included, number of gaps is 2
+  tibe1272 data included, number of gaps is 2
+  tido1248 data included, number of gaps is 2
+  tifa1245 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tiga1244 data included, number of gaps is 1
+  tiii1241 data included, number of gaps is 2
+  tiko1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  timb1251 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  timo1261 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  timu1262 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tind1238 data included, all concepts are covered.
+  tira1258 data included, number of gaps is 2
+  tlin1245 data included, number of gaps is 1
+  tlya1238 data included, all concepts are covered.
+  toab1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  toar1246 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  toba1266 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  toba1269 data included, all concepts are covered.
+  tobo1251 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tofa1246 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  togo1254 data discarded due to gaps for 3 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING)
+  toka1244 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tokh1242 data included, number of gaps is 1
+  tokh1243 data included, all concepts are covered.
+  toki1238 data included, all concepts are covered.
+  tokp1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tolo1254 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tome1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tomm1242 data included, number of gaps is 2
+  tong1325 data included, number of gaps is 1
+  toor1238 data included, number of gaps is 1
+  toro1253 data included, number of gaps is 2
+  torr1259 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tosk1239 data included, number of gaps is 1
+  toto1306 data included, number of gaps is 2
+  touo1238 data included, number of gaps is 2
+  towe1240 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tran1282 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  treg1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  trin1274 data included, number of gaps is 2
+  trum1247 data included, number of gaps is 2
+  tsak1249 data included, all concepts are covered.
+  tsak1250 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tsha1245 data included, number of gaps is 2
+  tsho1240 data included, number of gaps is 1
+  tsou1248 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tswa1253 data included, number of gaps is 2
+  tuam1242 data included, number of gaps is 2
+  tuba1277 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tuca1252 data included, number of gaps is 2
+  tuji1244 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  tuka1249 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tuku1254 data discarded due to gaps for 3 concepts: SEE, TASTE (SOMETHING), TOUCH
+  tuma1250 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tung1293 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tupa1250 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  turk1304 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tuvi1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  tuyu1244 data included, all concepts are covered.
+  tzot1259 data included, all concepts are covered.
+  uare1241 data included, number of gaps is 2
+  ubyk1235 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  uder1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  udii1243 data included, all concepts are covered.
+  udmu1245 data included, all concepts are covered.
+  ufim1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ugar1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ughe1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  uhak1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ujin1234 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ukal1234 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ukin1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ukra1253 data included, all concepts are covered.
+  ukur1240 data included, number of gaps is 2
+  ulaw1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  umaa1242 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  umbr1253 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  umee1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  umpi1239 data included, number of gaps is 2
+  unaa1239 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  uppe1430 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  uppe1439 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  uram1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  urap1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  urat1244 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  urax1238 data included, all concepts are covered.
+  urig1240 data included, number of gaps is 2
+  urii1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  urim1252 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ursa1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  urua1244 data included, number of gaps is 2
+  urue1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  usan1239 data included, number of gaps is 2
+  usku1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  usse1238 data included, number of gaps is 1
+  utal1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  utar1238 data included, number of gaps is 2
+  uten1234 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  utsa1239 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  utuu1240 data included, number of gaps is 2
+  uyaa1238 data included, number of gaps is 2
+  vagh1249 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  vang1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  vano1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  vari1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  vene1258 data included, number of gaps is 1
+  veps1250 data included, all concepts are covered.
+  viet1252 data included, all concepts are covered.
+  vinz1238 data included, number of gaps is 1
+  vlax1238 data included, all concepts are covered.
+  vunj1238 data included, number of gaps is 1
+  vwan1235 data included, number of gaps is 1
+  wabo1240 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wabo1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wabu1242 data included, number of gaps is 2
+  wada1263 data included, number of gaps is 2
+  wadi1249 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wadi1260 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  waer1237 data included, number of gaps is 2
+  waga1260 data included, number of gaps is 2
+  wagg1235 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wagi1249 data included, number of gaps is 2
+  waib1246 data included, number of gaps is 2
+  waid1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  waig1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  waim1252 data included, number of gaps is 2
+  waim1255 data included, number of gaps is 2
+  waiw1244 data included, number of gaps is 2
+  waiw1246 data included, number of gaps is 2
+  waja1257 data included, number of gaps is 2
+  waju1234 data included, number of gaps is 2
+  wakh1245 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wala1266 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wala1269 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wali1265 data included, number of gaps is 2
+  wall1255 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  walm1241 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wama1247 data included, number of gaps is 2
+  wamb1259 data included, number of gaps is 2
+  wamo1241 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wana1268 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wana1269 data included, number of gaps is 2
+  wanc1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wanc1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wand1264 data included, number of gaps is 1
+  wand1267 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wand1278 data included, number of gaps is 1
+  wang1289 data included, number of gaps is 2
+  wang1290 data included, number of gaps is 2
+  wang1291 data discarded due to gaps for 3 concepts: SEE, TASTE (SOMETHING), TOUCH
+  wang1299 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wang1301 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wang1302 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wanm1242 data included, number of gaps is 2
+  want1252 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  waor1240 data included, all concepts are covered.
+  wapi1253 data included, all concepts are covered.
+  wapu1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ward1248 data included, number of gaps is 2
+  ware1253 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wari1262 data included, number of gaps is 2
+  wari1264 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wari1266 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wari1268 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wark1247 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  warl1254 data included, number of gaps is 2
+  warl1255 data included, number of gaps is 2
+  warl1256 data included, number of gaps is 2
+  waro1242 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  warr1255 data included, number of gaps is 2
+  waru1264 data included, number of gaps is 2
+  waru1265 data included, number of gaps is 2
+  wask1241 data included, number of gaps is 2
+  wata1253 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wata1254 data included, number of gaps is 2
+  wath1238 data included, number of gaps is 2
+  watu1247 data included, number of gaps is 2
+  waur1244 data included, all concepts are covered.
+  waya1270 data included, number of gaps is 1
+  wayo1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wayu1243 data included, all concepts are covered.
+  weir1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wels1246 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wels1247 data included, all concepts are covered.
+  wemo1239 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  weri1246 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wers1238 data included, number of gaps is 2
+  west1506 data included, number of gaps is 1
+  west2354 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  west2369 data included, all concepts are covered.
+  west2376 data included, all concepts are covered.
+  west2386 data included, all concepts are covered.
+  west2392 data included, all concepts are covered.
+  west2394 data included, number of gaps is 1
+  west2415 data included, number of gaps is 2
+  west2430 data included, number of gaps is 1
+  west2441 data included, number of gaps is 2
+  west2543 data included, number of gaps is 2
+  west2547 data included, number of gaps is 2
+  west2548 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  west2555 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  west2557 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  west2573 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  west2582 data discarded due to gaps for 4 concepts: SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  west2594 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  west2599 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  west2600 data included, number of gaps is 2
+  west2650 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  west2927 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  weta1243 data included, number of gaps is 2
+  wich1264 data included, all concepts are covered.
+  wikm1247 data included, number of gaps is 2
+  wipi1242 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wipi1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wira1262 data included, number of gaps is 2
+  wira1265 data included, number of gaps is 2
+  wiru1244 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  woga1249 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  woii1237 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  woiw1238 data included, number of gaps is 2
+  wola1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  woli1241 data included, number of gaps is 2
+  wong1246 data included, number of gaps is 2
+  woni1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  wotu1240 data included, number of gaps is 2
+  woun1238 data included, number of gaps is 2
+  wuak1234 data included, number of gaps is 2
+  wulg1239 data included, number of gaps is 2
+  wutu1244 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  xiam1236 data included, all concepts are covered.
+  xian1250 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  xian1253 data included, all concepts are covered.
+  xish1235 data included, number of gaps is 1
+  xokl1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  xuzh1234 data included, number of gaps is 1
+  xvar1237 data included, all concepts are covered.
+  yabe1255 data included, number of gaps is 2
+  yabo1240 data included, number of gaps is 2
+  yabu1234 data included, number of gaps is 2
+  yach1234 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yach1235 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yafi1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yaga1256 data included, number of gaps is 2
+  yaga1259 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yaga1260 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yaga1262 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  yagn1238 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yagu1244 data included, all concepts are covered.
+  yagw1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yaha1247 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yaha1248 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yaku1245 data included, all concepts are covered.
+  yala1262 data included, number of gaps is 2
+  yale1246 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yama1264 data included, number of gaps is 2
+  yami1254 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yami1256 data included, all concepts are covered.
+  yand1253 data included, number of gaps is 2
+  yand1257 data included, number of gaps is 2
+  yang1296 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yang1298 data included, number of gaps is 2
+  yang1304 data included, number of gaps is 1
+  yang1306 data included, all concepts are covered.
+  yang1307 data included, all concepts are covered.
+  yann1237 data included, number of gaps is 2
+  yano1262 data included, all concepts are covered.
+  yany1243 data included, number of gaps is 2
+  yaoo1241 data included, number of gaps is 1
+  yaos1235 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yaqa1246 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yaqu1251 data included, all concepts are covered.
+  yara1250 data included, number of gaps is 2
+  yarl1238 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  yaum1237 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yaur1239 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yaus1235 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yavi1244 data included, number of gaps is 1
+  yawa1258 data included, number of gaps is 2
+  yawe1241 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yawi1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yeii1239 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yeko1240 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yelm1242 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yere1243 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yess1239 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yetf1238 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yidi1250 data included, number of gaps is 2
+  yill1241 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yima1243 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yimc1241 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yind1247 data included, number of gaps is 2
+  yind1248 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yira1239 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yish1238 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  yiss1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yogl1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yoid1240 data included, number of gaps is 2
+  yoke1238 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yong1270 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  yong1280 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yorn1234 data included, number of gaps is 2
+  yort1237 data included, number of gaps is 2
+  youl1235 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  youn1235 data included, number of gaps is 1
+  yucu1253 data included, number of gaps is 2
+  yuet1238 data included, all concepts are covered.
+  yuga1244 data included, number of gaps is 2
+  yukp1241 data included, number of gaps is 2
+  yulp1238 data included, number of gaps is 2
+  yunl1238 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yuqu1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yura1255 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yuru1263 data included, number of gaps is 2
+  yuta1239 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  yuwa1242 data included, number of gaps is 2
+  yuwa1244 data included, all concepts are covered.
+  zaba1237 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  zaca1242 data included, all concepts are covered.
+  zaiw1241 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  zaka1239 data included, all concepts are covered.
+  zana1238 data included, number of gaps is 1
+  zara1247 data included, number of gaps is 1
+  zauz1238 data discarded due to gaps for 3 concepts: HEAR, TASTE (SOMETHING), TOUCH
+  zaza1245 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  zeme1240 data discarded due to gaps for 5 concepts: HEAR, SEE, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  zhou1234 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  ziaa1250 data discarded due to gaps for 3 concepts: SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  zigu1242 data included, number of gaps is 1
+  zima1244 data discarded due to gaps for 4 concepts: HEAR, SMELL (PERCEIVE), TASTE (SOMETHING), TOUCH
+  zinz1238 data included, number of gaps is 1
+  zizi1238 data included, number of gaps is 1
+  zuni1245 data included, number of gaps is 1
+  zuoj1238 data included, all concepts are covered.
+Extracted isolectic sets from 1071 languages.
+Proceeding to separating set size 0, 9 potentially deletable links left.
+  Attempting to separate pair SEE-TASTE (SOMETHING) using the 3 neighbors of SEE and TASTE (SOMETHING) on connecting paths, forming 1 separating set candidates
+  Attempting to separate pair TASTE (SOMETHING)-TOUCH using the 3 neighbors of TASTE (SOMETHING) and TOUCH on connecting paths, forming 1 separating set candidates
+  Attempting to separate pair SMELL (PERCEIVE)-TASTE (SOMETHING) using the 3 neighbors of SMELL (PERCEIVE) and TASTE (SOMETHING) on connecting paths, forming 1 separating set candidates
+  Attempting to separate pair HEAR-TOUCH using the 3 neighbors of HEAR and TOUCH on connecting paths, forming 1 separating set candidates
+  Attempting to separate pair SEE-TOUCH using the 3 neighbors of SEE and TOUCH on connecting paths, forming 1 separating set candidates
+  Attempting to separate pair HEAR-SEE using the 3 neighbors of HEAR and SEE on connecting paths, forming 1 separating set candidates
+  Attempting to separate pair HEAR-SMELL (PERCEIVE) using the 3 neighbors of HEAR and SMELL (PERCEIVE) on connecting paths, forming 1 separating set candidates
+  Attempting to separate pair HEAR-TASTE (SOMETHING) using the 3 neighbors of HEAR and TASTE (SOMETHING) on connecting paths, forming 1 separating set candidates
+  Attempting to separate pair SEE-SMELL (PERCEIVE) using the 3 neighbors of SEE and SMELL (PERCEIVE) on connecting paths, forming 1 separating set candidates
+Proceeding to separating set size 1, 8 potentially deletable links left.
+  Attempting to separate pair SMELL (PERCEIVE)-TASTE (SOMETHING) using the 3 neighbors of SMELL (PERCEIVE) and TASTE (SOMETHING) on connecting paths, forming 3 separating set candidates
+  Attempting to separate pair HEAR-TASTE (SOMETHING) using the 3 neighbors of HEAR and TASTE (SOMETHING) on connecting paths, forming 3 separating set candidates
+  Attempting to separate pair SEE-SMELL (PERCEIVE) using the 3 neighbors of SEE and SMELL (PERCEIVE) on connecting paths, forming 3 separating set candidates
+    successful independence test, link (SEE,SMELL (PERCEIVE)) can be removed by conditioning on [HEAR]
+  Attempting to separate pair HEAR-SMELL (PERCEIVE) using the 3 neighbors of HEAR and SMELL (PERCEIVE) on connecting paths, forming 3 separating set candidates
+  Attempting to separate pair TASTE (SOMETHING)-TOUCH using the 3 neighbors of TASTE (SOMETHING) and TOUCH on connecting paths, forming 3 separating set candidates
+  Attempting to separate pair SEE-TASTE (SOMETHING) using the 3 neighbors of SEE and TASTE (SOMETHING) on connecting paths, forming 3 separating set candidates
+  Attempting to separate pair HEAR-SEE using the 3 neighbors of HEAR and SEE on connecting paths, forming 3 separating set candidates
+  Attempting to separate pair HEAR-TOUCH using the 3 neighbors of HEAR and TOUCH on connecting paths, forming 3 separating set candidates
+Proceeding to separating set size 2, 7 potentially deletable links left.
+  Attempting to separate pair TASTE (SOMETHING)-TOUCH using the 3 neighbors of TASTE (SOMETHING) and TOUCH on connecting paths, forming 3 separating set candidates
+  Attempting to separate pair HEAR-TASTE (SOMETHING) using the 3 neighbors of HEAR and TASTE (SOMETHING) on connecting paths, forming 3 separating set candidates
+  Attempting to separate pair SMELL (PERCEIVE)-TASTE (SOMETHING) using the 3 neighbors of SMELL (PERCEIVE) and TASTE (SOMETHING) on connecting paths, forming 3 separating set candidates
+  Attempting to separate pair SEE-TASTE (SOMETHING) using the 3 neighbors of SEE and TASTE (SOMETHING) on connecting paths, forming 3 separating set candidates
+  Attempting to separate pair HEAR-SEE using the 3 neighbors of HEAR and SEE on connecting paths, forming 3 separating set candidates
+  Attempting to separate pair HEAR-SMELL (PERCEIVE) using the 3 neighbors of HEAR and SMELL (PERCEIVE) on connecting paths, forming 3 separating set candidates
+  Attempting to separate pair HEAR-TOUCH using the 3 neighbors of HEAR and TOUCH on connecting paths, forming 3 separating set candidates
+Proceeding to separating set size 3, 7 potentially deletable links left.
+  Attempting to separate pair TASTE (SOMETHING)-TOUCH using the 3 neighbors of TASTE (SOMETHING) and TOUCH on connecting paths, forming 1 separating set candidates
+  Attempting to separate pair HEAR-TASTE (SOMETHING) using the 3 neighbors of HEAR and TASTE (SOMETHING) on connecting paths, forming 1 separating set candidates
+  Attempting to separate pair SMELL (PERCEIVE)-TASTE (SOMETHING) using the 3 neighbors of SMELL (PERCEIVE) and TASTE (SOMETHING) on connecting paths, forming 1 separating set candidates
+  Attempting to separate pair SEE-TASTE (SOMETHING) using the 3 neighbors of SEE and TASTE (SOMETHING) on connecting paths, forming 1 separating set candidates
+  Attempting to separate pair HEAR-SEE using the 3 neighbors of HEAR and SEE on connecting paths, forming 1 separating set candidates
+  Attempting to separate pair HEAR-SMELL (PERCEIVE) using the 3 neighbors of HEAR and SMELL (PERCEIVE) on connecting paths, forming 1 separating set candidates
+  Attempting to separate pair HEAR-TOUCH using the 3 neighbors of HEAR and TOUCH on connecting paths, forming 1 separating set candidates
+Proceeding to separating set size 4, 7 potentially deletable links left.
+Proceeding to separating set size 5, 7 potentially deletable links left.
+Found v-structure: SEE -> TASTE (SOMETHING) <- SMELL (PERCEIVE)
+Found v-structure: SMELL (PERCEIVE) -> HEAR <- TOUCH
+Found v-structure: SMELL (PERCEIVE) -> TASTE (SOMETHING) <- TOUCH
+  R01: SMELL (PERCEIVE) --> HEAR o-o SEE, therefore HEAR --> SEE
+
+RESULT:
+=======
+
+#names
+0	HEAR
+1	SEE
+2	SMELL (PERCEIVE)
+3	TASTE (SOMETHING)
+4	TOUCH
+#links
+HEAR	-->	SEE
+HEAR	<--	SMELL (PERCEIVE)
+HEAR	o-o	TASTE (SOMETHING)
+HEAR	<--	TOUCH
+SEE	-->	TASTE (SOMETHING)
+SEE	o-o	TOUCH
+SMELL (PERCEIVE)	-->	TASTE (SOMETHING)
+TASTE (SOMETHING)	<--	TOUCH

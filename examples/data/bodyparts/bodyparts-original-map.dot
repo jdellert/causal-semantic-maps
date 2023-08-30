@@ -1,0 +1,45 @@
+digraph CausalGraph
+{
+  splines=true;
+  node [fontcolor=blue, fontsize=20];
+  CALF [pos="3.5,6!"];
+  EYE  [pos="1,1!"];
+  FACE [pos="3.5,2!"];
+  FOOT [pos="3.5,5!"];
+  FOREHEAD [pos="3.5,3!"];
+  HAIR [pos="3.5,1!"];
+  HEAD [pos="6,2!"];
+  HEEL [pos="1,5.5!"];
+  LEG [pos="6,6!"];
+  LIP [pos="1,2!"];
+  MOUTH [pos="1,3!"];
+  "SOLE (FOOT)" [pos="1,4.5!"];
+  THIGH [pos="3.5,7!"];
+subgraph undirected
+{
+  edge [dir=none];
+}
+subgraph bidirected
+{
+  edge [dir=none];
+}
+subgraph directed
+{
+  edge [arrowsize=1];
+  THIGH -> LEG [color="#000000ff",penwidth="5"];
+  CALF -> LEG [color="#000000ff",penwidth="5"];
+  FOOT -> LEG [color="#000000ff",penwidth="5"];
+  "SOLE (FOOT)" -> FOOT [color="#000000ff",penwidth="5"];
+  HEEL -> FOOT [color="#000000ff",penwidth="5"];
+  FOREHEAD -> HEAD [color="#000000ff",penwidth="5"];
+  HAIR -> HEAD [color="#000000ff",penwidth="5"];
+  FACE -> HEAD [color="#000000ff",penwidth="5"];
+  MOUTH -> FACE [color="#000000ff",penwidth="5"];
+  LIP -> FACE [color="#000000ff",penwidth="5"];
+  EYE -> FACE [color="#000000ff",penwidth="5"];
+}
+subgraph directedPreset
+{
+  edge [arrowsize=1];
+}
+}

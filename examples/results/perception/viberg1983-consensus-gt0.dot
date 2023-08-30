@@ -1,0 +1,43 @@
+digraph CausalGraphSummary
+{
+  splines=true;
+  node [ fontcolor=blue, fontsize=20];
+  "HEAR" [pos="3.0,4.0!"];
+  "SEE" [pos="1.0,2.0!"];
+  "SMELL (PERCEIVE)" [pos="8.0,4.0!"];
+  "TASTE (SOMETHING)" [pos="8.0,0.0!"];
+  "TOUCH" [pos="4.0,2.0!"];
+subgraph undirected
+{
+  edge [dir=none];
+  "HEAR" -> "SMELL (PERCEIVE)" [color="#cccc00ff",penwidth="5"];
+  "HEAR" -> "TASTE (SOMETHING)" [color="#cccc00ff",penwidth="2"];
+  "SMELL (PERCEIVE)" -> "TASTE (SOMETHING)" [color="#cccc00ff",penwidth="1"];
+  "TASTE (SOMETHING)" -> "TOUCH" [color="#cccc00ff",penwidth="1"];
+}
+subgraph bidirected
+{
+  edge [dir=none];
+  "HEAR" -> "TASTE (SOMETHING)" [color="#80d100ff",penwidth="1"];
+  "HEAR" -> "TOUCH" [color="#80d100ff",penwidth="2"];
+  "SMELL (PERCEIVE)" -> "TASTE (SOMETHING)" [color="#80d100ff",penwidth="1"];
+  "TASTE (SOMETHING)" -> "TOUCH" [color="#80d100ff",penwidth="3"];
+}
+subgraph directed
+{
+  edge [arrowsize=1];
+  "HEAR" -> "SMELL (PERCEIVE)" [color="#007e56ff",penwidth="1"];
+  "SMELL (PERCEIVE)" -> "HEAR" [color="#007e56ff",penwidth="10"];
+  "HEAR" -> "TASTE (SOMETHING)" [color="#007e56ff",penwidth="4"];
+  "TASTE (SOMETHING)" -> "HEAR" [color="#007e56ff",penwidth="1"];
+  "TOUCH" -> "HEAR" [color="#007e56ff",penwidth="4"];
+  "SEE" -> "TASTE (SOMETHING)" [color="#007e56ff",penwidth="5"];
+  "SMELL (PERCEIVE)" -> "TASTE (SOMETHING)" [color="#007e56ff",penwidth="11"];
+  "TASTE (SOMETHING)" -> "SMELL (PERCEIVE)" [color="#007e56ff",penwidth="1"];
+  "TOUCH" -> "TASTE (SOMETHING)" [color="#007e56ff",penwidth="9"];
+}
+subgraph directedPreset
+{
+  edge [arrowsize=1];
+}
+}

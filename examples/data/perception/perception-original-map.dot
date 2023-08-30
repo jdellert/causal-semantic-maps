@@ -1,0 +1,34 @@
+digraph CausalGraph
+{
+  splines=true;
+  node [fontcolor=blue, fontsize=20];
+  "HEAR" [pos="3.0,4.0!"];
+  "SEE" [pos="1.0,2.0!"];
+  "SMELL (PERCEIVE)" [pos="8.0,4.0!"];
+  "TASTE (SOMETHING)" [pos="8.0,0.0!"];
+  "TOUCH" [pos="4.0,2.0!"];
+subgraph undirected
+{
+  edge [dir=none];
+}
+subgraph bidirected
+{
+  edge [dir=both];
+  "SMELL (PERCEIVE)" -> "TASTE (SOMETHING)" [color="#000000ff",penwidth="5"];
+}
+subgraph directed
+{
+  edge [arrowsize=2];
+  "HEAR" -> "SMELL (PERCEIVE)" [color="#000000ff",penwidth="5"];
+  "HEAR" -> "TASTE (SOMETHING)" [color="#000000ff",penwidth="5"];
+  "HEAR" -> "TOUCH" [color="#000000ff",penwidth="5"];
+  "SEE" -> "HEAR" [color="#000000ff",penwidth="5"];
+  "SEE" -> "TASTE (SOMETHING)" [color="#000000ff",penwidth="5"];
+  "SEE" -> "TOUCH" [color="#000000ff",penwidth="5"];
+  "TOUCH" -> "TASTE (SOMETHING)" [color="#000000ff",penwidth="5"];
+}
+subgraph directedPreset
+{
+  edge [arrowsize=2];
+}
+}

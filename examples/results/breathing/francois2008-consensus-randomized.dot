@@ -1,0 +1,76 @@
+digraph CausalGraphSummary
+{
+  splines=true;
+  node [ fontcolor=blue, fontsize=20];
+  "INSPIRATION" [pos="-1,0!"];
+  "DIVINE BREATH" [pos="1.5,0.8!"];
+  "SCENT" [pos="-1.2,1.9!"];
+  "PUFF OF BREATH" [pos="4.5,1.6!"];
+  "COLD AIR" [pos="-1,3.6!"];
+  "AIR OR WIND" [pos="3,3.2!"];
+  "BLOW (WIND)" [pos="1,5!"];
+  "BLOW" [pos="5.7,5!"];
+  "WHISPER" [pos="4,7!"];
+  "UTTER" [pos="0,6.5!"];
+  "SUPERNATURAL BEING" [pos="3,-0.3!"];
+  "GHOST" [pos="6,0.2!"];
+  "ACT OF BREATHING" [pos="7,3.2!"];
+  "BREATHE" [pos="6.5,4.1!"];
+  "PAUSE FOR BREATH" [pos="9.5,5.2!"];
+  "TAKE A REST" [pos="14,6!"];
+  "BE ON VACATION" [pos="8,7!"];
+  "CEASE TO DO" [pos="13,4.5!"];
+  "PRIDE" [pos="9,-0.2!"];
+  "SOUL" [pos="9.5,0.5!"];
+  "LIFE" [pos="10.8,2.2!"];
+  "LIVING BEING" [pos="11.5,3.5!"];
+  "VITAL FORCE" [pos="11,1.2!"];
+  "HEART" [pos="12.3,0.3!"];
+  "MOOD" [pos="11,-0.5!"];
+  "INTELLIGENCE" [pos="15.2,1!"];
+  "MIND" [pos="14.5,2.2!"];
+  "SELF" [pos="15,3!"];
+  "ONESELF" [pos="15.5,4!"];
+subgraph undirected
+{
+  edge [dir=none];
+  "ACT OF BREATHING" -> "AIR OR WIND" [color="#cc0000ff",penwidth="16"];
+  "ACT OF BREATHING" -> "BLOW" [color="#cc0000ff",penwidth="3"];
+  "ACT OF BREATHING" -> "BREATHE" [color="#cc0000ff",penwidth="16"];
+  "ACT OF BREATHING" -> "LIFE" [color="#cc0000ff",penwidth="3"];
+  "ACT OF BREATHING" -> "MIND" [color="#cc0000ff",penwidth="1"];
+  "ACT OF BREATHING" -> "PAUSE FOR BREATH" [color="#cc0000ff",penwidth="6"];
+  "ACT OF BREATHING" -> "PUFF OF BREATH" [color="#cc0000ff",penwidth="16"];
+  "ACT OF BREATHING" -> "SCENT" [color="#cc0000ff",penwidth="4"];
+  "ACT OF BREATHING" -> "SELF" [color="#cc000026",penwidth="1"];
+  "ACT OF BREATHING" -> "SOUL" [color="#cc0000ff",penwidth="1"];
+  "ACT OF BREATHING" -> "TAKE A REST" [color="#cc0000ff",penwidth="6"];
+  "ACT OF BREATHING" -> "VITAL FORCE" [color="#cc0000ff",penwidth="3"];
+  "BLOW" -> "BREATHE" [color="#cc0000ff",penwidth="3"];
+  "LIFE" -> "PUFF OF BREATH" [color="#cc0000ff",penwidth="4"];
+  "MIND" -> "PUFF OF BREATH" [color="#cc0000ff",penwidth="1"];
+  "MIND" -> "SELF" [color="#cc0000ff",penwidth="1"];
+  "MIND" -> "VITAL FORCE" [color="#cc0000ff",penwidth="1"];
+  "ONESELF" -> "SELF" [color="#cc0000ff",penwidth="1"];
+  "PAUSE FOR BREATH" -> "TAKE A REST" [color="#cc0000ff",penwidth="6"];
+  "PUFF OF BREATH" -> "SCENT" [color="#cc0000ff",penwidth="3"];
+  "PUFF OF BREATH" -> "SELF" [color="#cc000099",penwidth="1"];
+  "PUFF OF BREATH" -> "SOUL" [color="#cc0000ff",penwidth="1"];
+  "PUFF OF BREATH" -> "VITAL FORCE" [color="#cc0000ff",penwidth="3"];
+  "SELF" -> "VITAL FORCE" [color="#cc0000cc",penwidth="1"];
+  "SOUL" -> "VITAL FORCE" [color="#cc0000ff",penwidth="1"];
+  "UTTER" -> "WHISPER" [color="#cc0000ff",penwidth="1"];
+}
+subgraph bidirected
+{
+  edge [dir=none];
+}
+subgraph directed
+{
+  edge [arrowsize=1];
+}
+subgraph directedPreset
+{
+  edge [arrowsize=1];
+}
+}

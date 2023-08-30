@@ -1,0 +1,53 @@
+digraph CausalGraphSummary
+{
+  splines=true;
+  node [ fontcolor=blue, fontsize=20];
+  "HEAR" [pos="3.0,4.0!"];
+  "SEE" [pos="1.0,2.0!"];
+  "SMELL (PERCEIVE)" [pos="8.0,4.0!"];
+  "TASTE (SOMETHING)" [pos="8.0,0.0!"];
+  "TOUCH" [pos="4.0,2.0!"];
+subgraph undirected
+{
+  edge [dir=none];
+  "HEAR" -> "SEE" [color="#cccc00ff",penwidth="2"];
+  "HEAR" -> "SMELL (PERCEIVE)" [color="#cccc00ff",penwidth="5"];
+  "HEAR" -> "TASTE (SOMETHING)" [color="#cccc00ff",penwidth="7"];
+  "SEE" -> "TASTE (SOMETHING)" [color="#cccc00ff",penwidth="1"];
+  "SEE" -> "TOUCH" [color="#cccc00ff",penwidth="3"];
+  "TASTE (SOMETHING)" -> "TOUCH" [color="#cccc00ff",penwidth="1"];
+}
+subgraph bidirected
+{
+  edge [dir=none];
+  "HEAR" -> "SEE" [color="#80d100ff",penwidth="1"];
+  "HEAR" -> "TASTE (SOMETHING)" [color="#80d100ff",penwidth="1"];
+  "HEAR" -> "TOUCH" [color="#80d100ff",penwidth="1"];
+  "SEE" -> "TASTE (SOMETHING)" [color="#80d100ff",penwidth="1"];
+  "SEE" -> "TOUCH" [color="#80d100ff",penwidth="1"];
+  "SMELL (PERCEIVE)" -> "TASTE (SOMETHING)" [color="#80d100ff",penwidth="1"];
+  "TASTE (SOMETHING)" -> "TOUCH" [color="#80d100ff",penwidth="4"];
+}
+subgraph directed
+{
+  edge [arrowsize=1];
+  "HEAR" -> "SEE" [color="#007e56ff",penwidth="8"];
+  "SEE" -> "HEAR" [color="#007e56ff",penwidth="5"];
+  "HEAR" -> "SMELL (PERCEIVE)" [color="#007e56ff",penwidth="1"];
+  "SMELL (PERCEIVE)" -> "HEAR" [color="#007e56ff",penwidth="11"];
+  "HEAR" -> "TASTE (SOMETHING)" [color="#007e56ff",penwidth="7"];
+  "TASTE (SOMETHING)" -> "HEAR" [color="#007e56ff",penwidth="2"];
+  "TOUCH" -> "HEAR" [color="#007e56ff",penwidth="5"];
+  "SEE" -> "TASTE (SOMETHING)" [color="#007e56ff",penwidth="4"];
+  "TASTE (SOMETHING)" -> "SEE" [color="#007e56ff",penwidth="1"];
+  "SEE" -> "TOUCH" [color="#007e56ff",penwidth="2"];
+  "TOUCH" -> "SEE" [color="#007e56ff",penwidth="2"];
+  "SMELL (PERCEIVE)" -> "TASTE (SOMETHING)" [color="#007e56ff",penwidth="11"];
+  "TASTE (SOMETHING)" -> "TOUCH" [color="#007e56ff",penwidth="1"];
+  "TOUCH" -> "TASTE (SOMETHING)" [color="#007e56ff",penwidth="11"];
+}
+subgraph directedPreset
+{
+  edge [arrowsize=1];
+}
+}

@@ -1,0 +1,63 @@
+digraph CausalGraphSummary
+{
+  splines=true;
+  node [ fontcolor=blue, fontsize=20];
+  "CALF" [pos="3.5,6.0!"];
+  "EYE" [pos="1.0,1.0!"];
+  "FACE" [pos="3.5,2.0!"];
+  "FOOT" [pos="3.5,5.0!"];
+  "FOREHEAD" [pos="3.5,3.0!"];
+  "HAIR" [pos="3.5,1.0!"];
+  "HEAD" [pos="6.0,2.0!"];
+  "HEEL" [pos="1.0,5.5!"];
+  "LEG" [pos="6.0,6.0!"];
+  "LIP" [pos="1.0,2.0!"];
+  "MOUTH" [pos="1.0,3.0!"];
+  "SOLE (FOOT)" [pos="1.0,4.5!"];
+  "THIGH" [pos="3.5,7.0!"];
+subgraph undirected
+{
+  edge [dir=none];
+  "CALF" -> "LEG" [color="#cccc00ff",penwidth="1"];
+  "FOOT" -> "HEEL" [color="#cccc00ff",penwidth="3"];
+  "FOOT" -> "LEG" [color="#cccc00ff",penwidth="1"];
+  "HAIR" -> "HEAD" [color="#cccc00ff",penwidth="1"];
+  "LEG" -> "THIGH" [color="#cccc00ff",penwidth="1"];
+  "LIP" -> "MOUTH" [color="#cccc00ff",penwidth="1"];
+}
+subgraph bidirected
+{
+  edge [dir=none];
+  "CALF" -> "LEG" [color="#80d100ff",penwidth="1"];
+  "EYE" -> "FACE" [color="#80d100ff",penwidth="9"];
+  "EYE" -> "HEAD" [color="#80d100ff",penwidth="4"];
+  "FACE" -> "FOREHEAD" [color="#80d100ff",penwidth="14"];
+  "FACE" -> "MOUTH" [color="#80d100ff",penwidth="15"];
+  "FOOT" -> "HEEL" [color="#80d100ff",penwidth="1"];
+  "FOOT" -> "LEG" [color="#80d100ff",penwidth="10"];
+  "FOREHEAD" -> "HEAD" [color="#80d100ff",penwidth="13"];
+  "LEG" -> "THIGH" [color="#80d100ff",penwidth="1"];
+}
+subgraph directed
+{
+  edge [arrowsize=1];
+  "CALF" -> "LEG" [color="#007e56ff",penwidth="15"];
+  "LEG" -> "CALF" [color="#007e56ff",penwidth="1"];
+  "EYE" -> "FACE" [color="#007e56ff",penwidth="7"];
+  "FOREHEAD" -> "FACE" [color="#007e56ff",penwidth="2"];
+  "MOUTH" -> "FACE" [color="#007e56ff",penwidth="1"];
+  "FOOT" -> "HEEL" [color="#007e56ff",penwidth="1"];
+  "HEEL" -> "FOOT" [color="#007e56ff",penwidth="12"];
+  "FOOT" -> "LEG" [color="#007e56ff",penwidth="3"];
+  "LEG" -> "FOOT" [color="#007e56ff",penwidth="3"];
+  "SOLE (FOOT)" -> "FOOT" [color="#007e56ff",penwidth="1"];
+  "HAIR" -> "HEAD" [color="#007e56ff",penwidth="15"];
+  "LEG" -> "THIGH" [color="#007e56ff",penwidth="1"];
+  "THIGH" -> "LEG" [color="#007e56ff",penwidth="15"];
+  "LIP" -> "MOUTH" [color="#007e56ff",penwidth="15"];
+}
+subgraph directedPreset
+{
+  edge [arrowsize=1];
+}
+}
