@@ -22,7 +22,7 @@ somedir/causal-semantic-maps$ mvn install
 
 To rerun the experiment involving the study by François (2008) about the domain of breathing:
 ```
-somedir/causal-semantic-maps$ java -jar target/causal-semantic-maps-1.0-jar-with-dependencies.jar -i examples/data/breathing/francois2008-isolectic-areas.tsv -vo examples/results/breathing/francois2008 -b
+somedir/causal-semantic-maps$ java -jar target/causal-semantic-maps-1.0-jar-with-dependencies.jar -i examples/data/breathing/francois2008-isolectic-areas.tsv -vc examples/data/breathing/francois2008-concept-coordinates.tsv -vo examples/results/breathing/francois2008 -b
 ```
 To rerun the experiment involving the study by Wilkins (1996) about bodyparts:
 ```
