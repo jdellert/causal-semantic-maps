@@ -211,8 +211,6 @@ public class SemanticMapInference {
 			}
 
 			Set<IsolecticArea> isolecticAreas = IsolecticAreaReader.loadFromFile(inputFilePath);
-			// List<IsolecticArea> sample = new ArrayList<IsolecticArea>(isolecticAreas);
-			// Collections.shuffle(sample);
 
 			// if no concept file was provided, select all concepts which occur in a certain
 			// number of isolectic sets (default: 0, i.e. no filtering)
