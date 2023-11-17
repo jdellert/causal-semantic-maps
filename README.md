@@ -18,7 +18,7 @@ somedir/aitiotita$ mvn install
 somedir/aitiotita$ cd ../causal-semantic-maps
 somedir/causal-semantic-maps$ mvn install
 ```
-## Running the Experiments
+## Running the Experiments from the Frontiers Article
 
 To rerun the experiment involving the study by François (2008) about the domain of breathing:
 ```
@@ -32,9 +32,9 @@ To rerun the experiment involving the study by Viberg (1983) about verbs of perc
 ```
 somedir/causal-semantic-maps$ java -jar target/causal-semantic-maps-1.0-jar-with-dependencies.jar -i examples/data/clics3/clics3-full.tsv -c examples/data/perception/viberg1983-clics-concepts.txt -vc examples/data/perception/viberg1983-clics-concept-coordinates.tsv -vo examples/results/perception/viberg1983 -d -b -r -lt 3
 ```
-## Running Regier ea. (2013) for comparison
+## Running Regier et al. (2013) for comparison
 
-To run the map inference algorithm by Regier ea. (2013) on the data by François (2008), I used my adapted version of their script:
+To run the map inference algorithm by Regier et al. (2013) on the data by François (2008), I used my adapted version of their script:
 ```
 somedir/causal-semantic-maps$ python3 scripts/regier-adapted.py examples/data/breathing/francois2008-isolectic-areas.tsv
 ```
