@@ -1,0 +1,66 @@
+digraph CausalGraph
+{
+  splines=true;
+  node [fontcolor=blue, fontsize=20];
+  "INSPIRATION" [pos="15,5!"];
+  "DIVINE BREATH" [pos="15.5,3.2!"];
+  "SCENT" [pos="-1,1.4!"];
+  "PUFF OF BREATH" [pos="2,2!"];
+  "COLD AIR" [pos="6,7!"];
+  "AIR OR WIND" [pos="9,3!"];
+  "BLOW (WIND)" [pos="12.5,4!"];
+  "BLOW" [pos="3,5!"];
+  "WHISPER" [pos="3,6!"];
+  "UTTER" [pos="3.5,7!"];
+  "SUPERNATURAL BEING" [pos="14,2!"];
+  "GHOST" [pos="3,0!"];
+  "ACT OF BREATHING" [pos="4,3!"];
+  "BREATHE" [pos="6,4!"];
+  "PAUSE FOR BREATH" [pos="1.5,4!"];
+  "TAKE A REST" [pos="0,5!"];
+  "BE ON VACATION" [pos="13,7!"];
+  "CEASE TO DO" [pos="12,5.5!"];
+  "PRIDE" [pos="7.5,0.5!"];
+  "SOUL" [pos="4.5,0.7!"];
+  "LIFE" [pos="6.7,2.2!"];
+  "LIVING BEING" [pos="9,4!"];
+  "VITAL FORCE" [pos="6,1.5!"];
+  "HEART" [pos="12,0.8!"];
+  "MOOD" [pos="10.0,0!"];
+  "INTELLIGENCE" [pos="9,6.5!"];
+  "MIND" [pos="0,3!"];
+  "SELF" [pos="1.2,0!"];
+  "ONESELF" [pos="-0.5,0.5!"];
+subgraph undirected
+{
+  edge [dir=none];
+  "BREATHE" -> "INTELLIGENCE" [color="#cc0000ff",penwidth="5"];
+  "BREATHE" -> "WHISPER" [color="#cc0000ff",penwidth="5"];
+  "BREATHE" -> "UTTER" [color="#cc0000ff",penwidth="5"];
+  "BREATHE" -> "COLD AIR" [color="#cc0000ff",penwidth="5"];
+  "BREATHE" -> "CEASE TO DO" [color="#cc0000ff",penwidth="5"];
+  "AIR OR WIND" -> "HEART" [color="#cc0000ff",penwidth="5"];
+  "AIR OR WIND" -> "MOOD" [color="#cc0000ff",penwidth="5"];
+  "AIR OR WIND" -> "PRIDE" [color="#cc0000ff",penwidth="5"];
+  "AIR OR WIND" -> "LIVING BEING" [color="#cc0000ff",penwidth="5"];
+  "AIR OR WIND" -> "SUPERNATURAL BEING" [color="#cc0000ff",penwidth="5"];
+  "AIR OR WIND" -> "BLOW (WIND)" [color="#cc0000ff",penwidth="5"];
+  "PUFF OF BREATH" -> "VITAL FORCE" [color="#cc0000ff",penwidth="5"];
+  "PUFF OF BREATH" -> "SOUL" [color="#cc0000ff",penwidth="5"];
+  "PUFF OF BREATH" -> "SCENT" [color="#cc0000ff",penwidth="5"];
+  "PUFF OF BREATH" -> "SELF" [color="#cc0000ff",penwidth="5"];
+  "ACT OF BREATHING" -> "PUFF OF BREATH" [color="#cc0000ff",penwidth="5"];
+  "ACT OF BREATHING" -> "BREATHE" [color="#cc0000ff",penwidth="5"];
+  "ACT OF BREATHING" -> "AIR OR WIND" [color="#cc0000ff",penwidth="5"];
+  "ACT OF BREATHING" -> "PAUSE FOR BREATH" [color="#cc0000ff",penwidth="5"];
+  "LIFE" -> "PUFF OF BREATH" [color="#cc0000ff",penwidth="5"];
+  "ONESELF" -> "PUFF OF BREATH" [color="#cc0000ff",penwidth="5"];
+  "MIND" -> "PUFF OF BREATH" [color="#cc0000ff",penwidth="5"];
+  "BLOW" -> "BREATHE" [color="#cc0000ff",penwidth="5"];
+  "GHOST" -> "PUFF OF BREATH" [color="#cc0000ff",penwidth="5"];
+  "BLOW (WIND)" -> "DIVINE BREATH" [color="#cc0000ff",penwidth="5"];
+  "BLOW (WIND)" -> "INSPIRATION" [color="#cc0000ff",penwidth="5"];
+  "PAUSE FOR BREATH" -> "TAKE A REST" [color="#cc0000ff",penwidth="5"];
+  "BE ON VACATION" -> "BREATHE" [color="#cc0000ff",penwidth="5"];
+  }
+}
