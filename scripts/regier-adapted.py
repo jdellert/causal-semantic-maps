@@ -1,15 +1,15 @@
 # Building a semantic map from data
 
 # Reported by Regier, Khetarpal, & Majid. "Inferring semantic maps"
-# in Linguistic Typology (in press)
+# in Linguistic Typology (2013)
 
 # Uses Angluin et al's (2010) algorithm for network inference
 
-# Input code changed by Johannes Dellert in order to work with TSV files of the format
+# Input code changed by Johannes Dellert to work with TSV files of the format
 # Language <TAB> Lemma <TAB> {SENSE1, SENSE2, SENSE3, ...}
 
 # Output code changed by Johannes Dellert to produce DOT output which can be copied
-# into a file (e.g. map.dot), and visualized in GraphViz by running the following command:
+# into a file (e.g. map.dot), and visualized in GraphViz by running this command:
 # $ neato -Tpdf map.dot -o map.pdf
 
 from __future__ import generators
@@ -47,7 +47,8 @@ def graphviz_output(G):
   for m in G.nodes():
     for n in G.neighbors(m):
       if str(m) < str(n):
-        graphviz_string += "  \"" + str(m) + "\" -> \"" + str(n) + "\" [color=\"#cc0000ff\",penwidth=\"5\"];\n"
+        graphviz_string += "  \"" + str(m) + "\" -> \"" + str(n) + "\" "
+        graphviz_string += " [color=\"#cc0000ff\",penwidth=\"5\"];\n"
   graphviz_string += "  }\n}\n"
   return graphviz_string
 
